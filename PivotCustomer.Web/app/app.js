@@ -17,6 +17,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locatio
             url: '',
             templateUrl: '/views/home.html',
             pageName: 'Home',
+        })
+        .state('layout.hiw', {
+            controller: 'HowItWorksController',
+            url: '/how-it-works',
+            templateUrl: '/views/how-it-works.html',
+            pageName: 'How it works',
         });
 
     $locationProvider.html5Mode(true);

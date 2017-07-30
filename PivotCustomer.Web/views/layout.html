@@ -1,1 +1,16 @@
-﻿<div ui-view></div>
+﻿<header>
+    <div ui-sref="layout.home" class="logo left"></div>
+    <nav class="left">
+        <ul>
+            <li ui-sref="layout.hiw" ui-sref-active="active">How it works</li>
+            <li ui-sref="layout.about" ui-sref-active="active">About us</li>
+            <li ui-sref="layout.faq" ui-sref-active="active">FAQ</li>
+            <li ui-sref="layout.blog" ui-sref-active="active">Blog</li>
+        </ul>
+    </nav>
+
+    <button class="custom-button register right">Register</button>
+    <div class="login right">Log in</div>
+</header>
+
+<div ui-view></div>
