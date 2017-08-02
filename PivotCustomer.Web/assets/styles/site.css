@@ -140,7 +140,33 @@ header .login:hover {
 }
 /*#endregion*/
 /*#region How it works page*/
+.hiw-wrapper {
+  padding-top: 108px;
+}
 .hiw-wrapper .register {
+  padding: 10% 0;
   background-color: #48ae8c;
+}
+.hiw-wrapper .register .main-wrapper {
+  width: 1100px;
+  text-align: center;
+}
+.hiw-wrapper .register .main-wrapper h1 {
+  margin-top: 0;
+  font-size: 80px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.hiw-wrapper .register .main-wrapper .separator {
+  width: 200px;
+  height: 1px;
+  margin: -30px auto 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .register .main-wrapper p {
+  margin-bottom: 80px;
+  font-size: 30px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
 }
 /*#endregion*/
