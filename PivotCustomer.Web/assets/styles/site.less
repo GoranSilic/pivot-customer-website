@@ -28,6 +28,20 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'MaisonNeue-Book';
+    src: url('../fonts/MaisonNeue-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/MaisonNeue-Book.woff') format('woff'), url('../fonts/MaisonNeue-Book.ttf') format('truetype'), url('../fonts/MaisonNeue-Book.svg#MaisonNeue-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaisonNeue-Bold';
+    src: url('../fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/MaisonNeue-Bold.woff') format('woff'), url('../fonts/MaisonNeue-Bold.ttf') format('truetype'), url('../fonts/MaisonNeue-Bold.svg#MaisonNeue-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /*#endregion */
 
 /*#region Defaults*/
@@ -192,6 +206,404 @@ header {
                 font-family: 'GothamRounded-Light', sans-serif;
                 color: @w;
             }
+        }
+    }
+
+    .info {
+        .left-part {
+            width: 30%;
+            background-color: #005499;
+        }
+
+        .right-part {
+            width: 47%;
+            padding: 6% 18% 6% 5%;
+            background-color: #173963;
+
+            h3 {
+                text-transform: uppercase;
+                font-size: 28px;
+                font-family: 'MaisonNeue-Book', sans-serif;
+                color: #005499;
+            }
+
+            h2 {
+                font-size: 40px;
+                font-family: 'MaisonNeue-Book', sans-serif;
+                font-weight: 500;
+                color: @w;
+            }
+
+            p {
+                line-height: 38px;
+                font-size: 24px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: #bac8d1;
+            }
+        }
+    }
+
+    .approach {
+        .left-part {
+            width: 30%;
+            background-color: #f7f8f9;
+        }
+
+        .right-part {
+            width: 47%;
+            padding: 6% 18% 6% 5%;
+        }
+    }
+
+    .stages {
+        background-color: @green;
+
+        .main-wrapper {
+            width: ~"calc(100% - 400px)";
+            padding: 80px 200px;
+
+            .nav {
+                justify-content: center;
+                margin-bottom: 75px;
+
+                .dot {
+                    position: relative;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: rgba(255, 255, 255, .5);
+                    cursor: pointer;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        bottom: -50px;
+                        font-size: 24px;
+                        font-family: 'MaisonNeue-Book', sans-serif;
+                        color: @w;
+                        -moz-transform: translateX(-50%);
+                        -ms-transform: translateX(-50%);
+                        -o-transform: translateX(-50%);
+                        -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                    }
+
+                    &.explore {
+                        &:after {
+                            content: "Explore";
+                        }
+                    }
+
+                    &.build {
+                        &:after {
+                            content: "Build";
+                        }
+                    }
+
+                    &.mobilize {
+                        &:after {
+                            content: "Mobilize";
+                        }
+                    }
+
+                    &.quit {
+                        &:after {
+                            content: "Quit";
+                        }
+                    }
+
+                    &.secure {
+                        &:after {
+                            content: "Secure";
+                        }
+                    }
+
+                    &.sustain {
+                        &:after {
+                            content: "Sustain";
+                        }
+                    }
+
+                    &.active {
+                        background-color: @w;
+
+                        &:after {
+                            font-family: 'MaisonNeue-Bold', sans-serif;
+                        }
+                    }
+                }
+
+                .line {
+                    align-self: center;
+                    width: 17%;
+                    height: 1px;
+                    background-color: rgba(255, 255, 255, .5);
+                }
+            }
+
+            .bars {
+                justify-content: center;
+                height: 60px;
+
+                .bar {
+                    width: 1px;
+                    height: 0;
+                    margin-right: ~"calc(17% + 19px)";
+                    background-color: rgba(255, 255, 255, .5);
+
+                    &.sustain {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            .content {
+                position: relative;
+
+                .move {
+                    position: absolute;
+                    top: 50%;
+                    width: 40px;
+                    height: 40px;
+                    -moz-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    -o-transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    cursor: pointer;
+
+                    &.left {
+                        display: none;
+                        left: -80px;
+                        background: url(../images/nav-left-arrow.png) center center no-repeat;
+                    }
+
+                    &.right {
+                        right: -80px;
+                        background: url(../images/nav-right-arrow.png) center center no-repeat;
+                    }
+                }
+
+                .stage {
+                    display: none;
+                    position: relative;
+                    height: 429px;
+                    padding: 70px 7%;
+                    border: 1px solid rgba(255, 255, 255, .5);
+
+                    &.title {
+                        display: block;
+                        border: none;
+                        text-align: center;
+
+                        .separator {
+                            margin: 0 auto 35px;
+                        }
+
+                        p {
+                            margin: 0 auto 40px;
+                        }
+                    }
+
+                    h3 {
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                        font-size: 24px;
+                        font-family: 'MaisonNeue-Book', sans-serif;
+                        font-weight: 500;
+                        color: @w;
+                    }
+
+                    h1 {
+                        margin: 0 0 30px;
+                        font-size: 80px;
+                        font-family: 'GothamRounded-Light', sans-serif;
+                        color: @w;
+                    }
+
+                    .separator {
+                        width: 105px;
+                        height: 1px;
+                        margin-bottom: 35px;
+                        background-color: rgba(255, 255, 255, .5);
+                    }
+
+                    p {
+                        width: 54%;
+                        font-size: 24px;
+                        font-family: 'GothamRounded-Light', sans-serif;
+                        color: @w;
+
+                        &.goal {
+                            font-style: italic;
+                        }
+                    }
+
+                    .custom-button {
+                        color: @green;
+                        background-color: @w;
+
+                        &:hover {
+                            opacity: .9;
+                        }
+                    }
+
+                    .chart {
+                        position: absolute;
+                        top: 50%;
+                        right: 7%;
+                        -moz-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        -o-transform: translateY(-50%);
+                        -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        width: 360px;
+                        height: 360px;
+
+                        .value {
+                            position: relative;
+                            line-height: 333px;
+                            text-align: center;
+                            font-size: 110px;
+                            font-family: 'GothamRounded-Book',sans-serif;
+                            color: @w;
+
+                            &:after {
+                                content: "DAYS";
+                                position: absolute;
+                                top: 20%;
+                                left: 0;
+                                width: 100%;
+                                text-align: center;
+                                font-size: 24px;
+                                font-family: 'MaisonNeue-Book', sans-serif;
+                                font-weight: 500;
+                                color: @w;
+                            }
+                        }
+                    }
+
+                    &.explore {
+                        .chart {
+                            background: url(../images/ring-explore.png) center center no-repeat;
+                            background-size: cover;
+                        }
+                    }
+
+                    &.build {
+                        .chart {
+                            background: url(../images/ring-build.png) center center no-repeat;
+                            background-size: cover;
+                        }
+
+                        .value {
+                            &:after {
+                                content: "DAY";
+                                left: 9%;
+                                width: 50%;
+                            }
+
+                            &:before {
+                                content: "WEEKS";
+                                position: absolute;
+                                top: 20%;
+                                right: 13%;
+                                width: 50%;
+                                text-align: center;
+                                font-size: 24px;
+                                font-family: 'MaisonNeue-Book', sans-serif;
+                                font-weight: 500;
+                                color: @w;
+                            }
+                        }
+                    }
+
+                    &.mobilize {
+                        .chart {
+                            background: url(../images/ring-mobilize.png) center center no-repeat;
+                            background-size: cover;
+                        }
+
+                        .value {
+                            &:after {
+                                content: "WEEK";
+                            }
+                        }
+                    }
+
+                    &.quit {
+                        .chart {
+                            background: url(../images/ring-quit.png) center center no-repeat;
+                            background-size: cover;
+                        }
+
+                        .value {
+                            &:after {
+                                content: "WEEK";
+                            }
+                        }
+                    }
+
+                    &.secure {
+                        .chart {
+                            background: url(../images/ring-secure.png) center center no-repeat;
+                            background-size: cover;
+                        }
+
+                        .value {
+                            &:after {
+                                content: "WEEKS";
+                            }
+                        }
+                    }
+
+                    &.sustain {
+                        .chart {
+                            background: url(../images/ring-sustain.png) center center no-repeat;
+                            background-size: cover;
+                        }
+
+                        .value {
+                            &:after {
+                                content: "WEEKS";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .today {
+        .left-part {
+            width: 50%;
+            background-color: #173963;
+
+            h3 {
+                text-transform: uppercase;
+                font-size: 28px;
+                font-family: 'MaisonNeue-Book', sans-serif;
+                color: #005499;
+            }
+
+            h2 {
+                font-size: 40px;
+                font-family: 'MaisonNeue-Book', sans-serif;
+                font-weight: 500;
+                color: @w;
+            }
+
+            p {
+                line-height: 38px;
+                font-size: 24px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: #bac8d1;
+            }
+        }
+
+        .right-part {
+            width: 50%;
         }
     }
 }

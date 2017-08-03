@@ -25,6 +25,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'MaisonNeue-Book';
+  src: url('../fonts/MaisonNeue-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/MaisonNeue-Book.woff') format('woff'), url('../fonts/MaisonNeue-Book.ttf') format('truetype'), url('../fonts/MaisonNeue-Book.svg#MaisonNeue-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MaisonNeue-Bold';
+  src: url('../fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/MaisonNeue-Bold.woff') format('woff'), url('../fonts/MaisonNeue-Bold.ttf') format('truetype'), url('../fonts/MaisonNeue-Bold.svg#MaisonNeue-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /*#endregion */
 /*#region Defaults*/
 [ng\:cloak],
@@ -168,5 +180,304 @@ header .login:hover {
   font-size: 30px;
   font-family: 'GothamRounded-Light', sans-serif;
   color: #fff;
+}
+.hiw-wrapper .info .left-part {
+  width: 30%;
+  background-color: #005499;
+}
+.hiw-wrapper .info .right-part {
+  width: 47%;
+  padding: 6% 18% 6% 5%;
+  background-color: #173963;
+}
+.hiw-wrapper .info .right-part h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #005499;
+}
+.hiw-wrapper .info .right-part h2 {
+  font-size: 40px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.hiw-wrapper .info .right-part p {
+  line-height: 38px;
+  font-size: 24px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #bac8d1;
+}
+.hiw-wrapper .approach .left-part {
+  width: 30%;
+  background-color: #f7f8f9;
+}
+.hiw-wrapper .approach .right-part {
+  width: 47%;
+  padding: 6% 18% 6% 5%;
+}
+.hiw-wrapper .stages {
+  background-color: #00b087;
+}
+.hiw-wrapper .stages .main-wrapper {
+  width: calc(100% - 400px);
+  padding: 80px 200px;
+}
+.hiw-wrapper .stages .main-wrapper .nav {
+  justify-content: center;
+  margin-bottom: 75px;
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #fff;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.explore:after {
+  content: "Explore";
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.build:after {
+  content: "Build";
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.mobilize:after {
+  content: "Mobilize";
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.quit:after {
+  content: "Quit";
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.secure:after {
+  content: "Secure";
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.sustain:after {
+  content: "Sustain";
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.active {
+  background-color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .nav .dot.active:after {
+  font-family: 'MaisonNeue-Bold', sans-serif;
+}
+.hiw-wrapper .stages .main-wrapper .nav .line {
+  align-self: center;
+  width: 17%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .stages .main-wrapper .bars {
+  justify-content: center;
+  height: 60px;
+}
+.hiw-wrapper .stages .main-wrapper .bars .bar {
+  width: 1px;
+  height: 0;
+  margin-right: calc(17% + 19px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .stages .main-wrapper .bars .bar.sustain {
+  margin-right: 0;
+}
+.hiw-wrapper .stages .main-wrapper .content {
+  position: relative;
+}
+.hiw-wrapper .stages .main-wrapper .content .move {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.hiw-wrapper .stages .main-wrapper .content .move.left {
+  display: none;
+  left: -80px;
+  background: url(../images/nav-left-arrow.png) center center no-repeat;
+}
+.hiw-wrapper .stages .main-wrapper .content .move.right {
+  right: -80px;
+  background: url(../images/nav-right-arrow.png) center center no-repeat;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage {
+  display: none;
+  position: relative;
+  height: 429px;
+  padding: 70px 7%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.title {
+  display: block;
+  border: none;
+  text-align: center;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.title .separator {
+  margin: 0 auto 35px;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.title p {
+  margin: 0 auto 40px;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage h1 {
+  margin: 0 0 30px;
+  font-size: 80px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage .separator {
+  width: 105px;
+  height: 1px;
+  margin-bottom: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .stages .main-wrapper .content .stage p {
+  width: 54%;
+  font-size: 24px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage p.goal {
+  font-style: italic;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage .custom-button {
+  color: #00b087;
+  background-color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage .custom-button:hover {
+  opacity: .9;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage .chart {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 360px;
+  height: 360px;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage .chart .value {
+  position: relative;
+  line-height: 333px;
+  text-align: center;
+  font-size: 110px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage .chart .value:after {
+  content: "DAYS";
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.explore .chart {
+  background: url(../images/ring-explore.png) center center no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.build .chart {
+  background: url(../images/ring-build.png) center center no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.build .value:after {
+  content: "DAY";
+  left: 9%;
+  width: 50%;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.build .value:before {
+  content: "WEEKS";
+  position: absolute;
+  top: 20%;
+  right: 13%;
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.mobilize .chart {
+  background: url(../images/ring-mobilize.png) center center no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.mobilize .value:after {
+  content: "WEEK";
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.quit .chart {
+  background: url(../images/ring-quit.png) center center no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.quit .value:after {
+  content: "WEEK";
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.secure .chart {
+  background: url(../images/ring-secure.png) center center no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.secure .value:after {
+  content: "WEEKS";
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.sustain .chart {
+  background: url(../images/ring-sustain.png) center center no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .stages .main-wrapper .content .stage.sustain .value:after {
+  content: "WEEKS";
+}
+.hiw-wrapper .today .left-part {
+  width: 50%;
+  background-color: #173963;
+}
+.hiw-wrapper .today .left-part h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #005499;
+}
+.hiw-wrapper .today .left-part h2 {
+  font-size: 40px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.hiw-wrapper .today .left-part p {
+  line-height: 38px;
+  font-size: 24px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #bac8d1;
+}
+.hiw-wrapper .today .right-part {
+  width: 50%;
 }
 /*#endregion*/
