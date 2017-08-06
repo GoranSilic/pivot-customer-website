@@ -23,6 +23,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locatio
             url: '/how-it-works',
             templateUrl: '/views/how-it-works.html',
             pageName: 'How it works',
+        })
+        .state('layout.blog', {
+            controller: 'BlogController',
+            url: '/blog',
+            templateUrl: '/views/blog.html',
+            pageName: 'Blog',
         });
 
     $locationProvider.html5Mode(true);

@@ -42,7 +42,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/*#endregion */
+/*#endregion*/
 
 /*#region Defaults*/
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -120,7 +120,7 @@ header {
     top: 0;
     left: 0;
     width: 90%;
-    padding: 23px 5%;
+    padding: 22px 5%;
     color: @gray;
     background-color: @w;
     z-index: 1;
@@ -172,15 +172,75 @@ header {
         }
     }
 }
+
+footer {
+    display: table;
+    width: 90%;
+    padding: 30px 5%;
+
+    .logo {
+        width: 45px;
+        height: 45px;
+        margin-right: 45px;
+        background: url(../images/small-logo.png) 0 0 no-repeat;
+        background-size: 45px;
+    }
+
+    .link,
+    .copy {
+        margin: 17px 25px 13px;
+        font-size: 16px;
+        font-family: 'MaisonNeue-Book', sans-serif;
+        color: #a5b0b7;
+        cursor: pointer;
+
+        &:hover {
+            color: @orange;
+        }
+    }
+
+    .copy {
+        cursor: default;
+
+        &:hover {
+            color: #a5b0b7;
+        }
+    }
+}
+/*#endregion*/
+
+/*#region Home page*/
+.home-wrapper {
+    padding-top: 106px;
+
+    .welcome {
+
+    }
+}
 /*#endregion*/
 
 /*#region How it works page*/
 .hiw-wrapper {
-    padding-top: 108px;
+    padding-top: 106px;
 
     .register {
+        position: relative;
         padding: 10% 0;
-        background-color: #48ae8c;
+        background: url(../images/icons-pattern.png) 0 0 no-repeat;
+        background-size: cover;
+
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -48px;
+            left: ~"calc(50% - 62px)";
+            width: 124px;
+            height: 62px;
+            border-bottom-left-radius: 124px;
+            border-bottom-right-radius: 124px;
+            background: @green url(../images/white-down-arrow.png) center 42% no-repeat;
+            background-size: 40px 25px;
+        }
 
         .main-wrapper {
             width: 1100px;
@@ -376,12 +436,14 @@ header {
                     &.left {
                         display: none;
                         left: -80px;
-                        background: url(../images/nav-left-arrow.png) center center no-repeat;
+                        background: url(../images/orange-left-arrow.png) center center no-repeat;
+                        background-size: 26px 41px;
                     }
 
                     &.right {
                         right: -80px;
-                        background: url(../images/nav-right-arrow.png) center center no-repeat;
+                        background: url(../images/orange-right-arrow.png) center center no-repeat;
+                        background-size: 26px 41px;
                     }
                 }
 
@@ -437,15 +499,6 @@ header {
 
                         &.goal {
                             font-style: italic;
-                        }
-                    }
-
-                    .custom-button {
-                        color: @green;
-                        background-color: @w;
-
-                        &:hover {
-                            opacity: .9;
                         }
                     }
 
@@ -570,6 +623,124 @@ header {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .today {
+        .left-part {
+            width: 28%;
+            padding: 15% 11%;
+            background-color: #173963;
+
+            h3 {
+                text-transform: uppercase;
+                font-size: 28px;
+                font-family: 'MaisonNeue-Book', sans-serif;
+                color: #005499;
+            }
+
+            h2 {
+                margin: 30px 0;
+                font-size: 55px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                font-weight: 500;
+                color: @w;
+            }
+
+            p {
+                margin-bottom: 50px;
+                line-height: 42px;
+                font-size: 30px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: #bac8d1;
+            }
+        }
+
+        .right-part {
+            width: 50%;
+            background: url(../images/today-bck.png) 0 0 no-repeat;
+            background-size: cover;
+        }
+    }
+}
+/*#endregion*/
+
+/*#region Blog page*/
+.blog-wrapper {
+    padding-top: 106px;
+
+    .welcome {
+        padding: 80px 0;
+        text-align: center;
+        background-color: #5a0045;
+
+        h1 {
+            margin: 0;
+            font-size: 80px;
+            font-family: 'GothamRounded-Light', sans-serif;
+            color: @w;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font-size: 28px;
+            font-family: 'MaisonNeue-Book', sans-serif;
+            color: #8c0085;
+        }
+    }
+
+    .posts {
+        padding: 200px 0 60px;
+
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 1460px;
+            margin: 0 auto;
+
+            .post {
+                width: 26%;
+                margin-bottom: 140px;
+
+                img {
+                    width: 100%;
+                    margin-bottom: 25px;
+                    border-radius: 20px;
+                }
+
+                .timestamp {
+                    margin-bottom: 15px;
+                    font-size: 24px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                    font-weight: 600;
+                    color: @green;
+                }
+
+                .title {
+                    margin-bottom: 25px;
+                    line-height: 38px;
+                    font-size: 34px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                    color: #232323;
+                }
+
+                .text {
+                    margin-bottom: 30px;
+                    line-height: 28px;
+                    font-size: 18px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                    color: #676969;
+                }
+
+                .custom-button {
+                    width: 240px;
+                    padding: 7px 0 9px;
+                    border: 2px solid @orange;
+                    font-size: 18px;
+                    font-family: 'GothamRounded-Book',sans-serif;
                 }
             }
         }

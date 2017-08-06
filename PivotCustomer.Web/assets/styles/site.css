@@ -37,7 +37,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/*#endregion */
+/*#endregion*/
 /*#region Defaults*/
 [ng\:cloak],
 [ng-cloak],
@@ -107,7 +107,7 @@ header {
   top: 0;
   left: 0;
   width: 90%;
-  padding: 23px 5%;
+  padding: 22px 5%;
   color: #3e3935;
   background-color: #fff;
   z-index: 1;
@@ -150,14 +150,63 @@ header .login {
 header .login:hover {
   color: #ff6e19;
 }
+footer {
+  display: table;
+  width: 90%;
+  padding: 30px 5%;
+}
+footer .logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 45px;
+  background: url(../images/small-logo.png) 0 0 no-repeat;
+  background-size: 45px;
+}
+footer .link,
+footer .copy {
+  margin: 17px 25px 13px;
+  font-size: 16px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #a5b0b7;
+  cursor: pointer;
+}
+footer .link:hover,
+footer .copy:hover {
+  color: #ff6e19;
+}
+footer .copy {
+  cursor: default;
+}
+footer .copy:hover {
+  color: #a5b0b7;
+}
+/*#endregion*/
+/*#region Home page*/
+.home-wrapper {
+  padding-top: 106px;
+}
 /*#endregion*/
 /*#region How it works page*/
 .hiw-wrapper {
-  padding-top: 108px;
+  padding-top: 106px;
 }
 .hiw-wrapper .register {
+  position: relative;
   padding: 10% 0;
-  background-color: #48ae8c;
+  background: url(../images/icons-pattern.png) 0 0 no-repeat;
+  background-size: cover;
+}
+.hiw-wrapper .register:after {
+  content: "";
+  position: absolute;
+  bottom: -48px;
+  left: calc(50% - 62px);
+  width: 124px;
+  height: 62px;
+  border-bottom-left-radius: 124px;
+  border-bottom-right-radius: 124px;
+  background: #00b087 url(../images/white-down-arrow.png) center 42% no-repeat;
+  background-size: 40px 25px;
 }
 .hiw-wrapper .register .main-wrapper {
   width: 1100px;
@@ -310,11 +359,13 @@ header .login:hover {
 .hiw-wrapper .stages .main-wrapper .content .move.left {
   display: none;
   left: -80px;
-  background: url(../images/nav-left-arrow.png) center center no-repeat;
+  background: url(../images/orange-left-arrow.png) center center no-repeat;
+  background-size: 26px 41px;
 }
 .hiw-wrapper .stages .main-wrapper .content .move.right {
   right: -80px;
-  background: url(../images/nav-right-arrow.png) center center no-repeat;
+  background: url(../images/orange-right-arrow.png) center center no-repeat;
+  background-size: 26px 41px;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage {
   display: none;
@@ -362,13 +413,6 @@ header .login:hover {
 }
 .hiw-wrapper .stages .main-wrapper .content .stage p.goal {
   font-style: italic;
-}
-.hiw-wrapper .stages .main-wrapper .content .stage .custom-button {
-  color: #00b087;
-  background-color: #fff;
-}
-.hiw-wrapper .stages .main-wrapper .content .stage .custom-button:hover {
-  opacity: .9;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage .chart {
   position: absolute;
@@ -481,6 +525,105 @@ header .login:hover {
   color: #bac8d1;
 }
 .hiw-wrapper .today .right-part {
+  width: 50%;
+  background: url(../images/today-bck.png) 0 0 no-repeat;
+  background-size: cover;
+}
+/*#endregion*/
+/*#region Blog page*/
+.blog-wrapper {
+  padding-top: 106px;
+}
+.blog-wrapper .welcome {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #5a0045;
+}
+.blog-wrapper .welcome h1 {
+  margin: 0;
+  font-size: 80px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.blog-wrapper .welcome h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #8c0085;
+}
+.blog-wrapper .posts {
+  padding: 200px 0 60px;
+}
+.blog-wrapper .posts .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1460px;
+  margin: 0 auto;
+}
+.blog-wrapper .posts .main-wrapper .post {
+  width: 26%;
+  margin-bottom: 140px;
+}
+.blog-wrapper .posts .main-wrapper .post img {
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+.blog-wrapper .posts .main-wrapper .post .timestamp {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 600;
+  color: #00b087;
+}
+.blog-wrapper .posts .main-wrapper .post .title {
+  margin-bottom: 25px;
+  line-height: 38px;
+  font-size: 34px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #232323;
+}
+.blog-wrapper .posts .main-wrapper .post .text {
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-size: 18px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #676969;
+}
+.blog-wrapper .posts .main-wrapper .post .custom-button {
+  width: 240px;
+  padding: 7px 0 9px;
+  border: 2px solid #ff6e19;
+  font-size: 18px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.blog-wrapper .today .left-part {
+  width: 28%;
+  padding: 15% 11%;
+  background-color: #173963;
+}
+.blog-wrapper .today .left-part h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #005499;
+}
+.blog-wrapper .today .left-part h2 {
+  margin: 30px 0;
+  font-size: 55px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.blog-wrapper .today .left-part p {
+  margin-bottom: 50px;
+  line-height: 42px;
+  font-size: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #bac8d1;
+}
+.blog-wrapper .today .right-part {
   width: 50%;
   background: url(../images/today-bck.png) 0 0 no-repeat;
   background-size: cover;
