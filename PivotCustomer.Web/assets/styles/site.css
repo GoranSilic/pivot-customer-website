@@ -133,7 +133,7 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  margin: 12px 26px;
+  margin: 11px 26px;
   list-style-type: none;
   font-size: 28px;
   font-family: 'GothamRounded-Book', sans-serif;
@@ -200,56 +200,174 @@ footer .copy:hover {
   top: 0;
   left: 0;
   right: 0;
-  margin-top: -1rem;
+  margin-top: 0;
 }
 .home-wrapper .welcome .l9 {
   top: 100px;
   left: 7%;
-  margin-top: -1.5rem;
+  margin-top: 0;
+  -moz-animation: cloud1 40s infinite;
+  -o-animation: cloud1 40s infinite;
+  -webkit-animation: cloud1 40s infinite;
+  animation: cloud1 40s infinite;
 }
 .home-wrapper .welcome .l8 {
   top: 100px;
-  right: 15%;
-  margin-top: -2rem;
+  left: 69%;
+  margin-top: 0;
+  -moz-animation: cloud2 40s infinite;
+  -o-animation: cloud2 40s infinite;
+  -webkit-animation: cloud2 40s infinite;
+  animation: cloud2 40s infinite;
 }
 .home-wrapper .welcome .l7 {
   top: -10px;
   left: 0;
   right: 0;
-  margin-top: -1rem;
+  margin-top: -0.3rem;
 }
 .home-wrapper .welcome .l6 {
   top: 30px;
   left: 0;
   right: 0;
-  margin-top: -2rem;
+  margin-top: -0.6rem;
 }
 .home-wrapper .welcome .l5 {
-  top: 100px;
+  top: -5px;
   left: 0;
   right: 0;
-  margin-top: -3rem;
+  margin-top: -0.8rem;
 }
 .home-wrapper .welcome .l4 {
-  top: 120px;
+  top: 22px;
   left: 0;
   right: 0;
-  margin-top: -4rem;
+  margin-top: -1.3rem;
+}
+.home-wrapper .welcome .text {
+  top: 50%;
+  left: 50%;
+  width: 64%;
+  margin-top: -2rem;
+  text-align: center;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.home-wrapper .welcome .text h1 {
+  margin: 0;
+  font-size: 90px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.home-wrapper .welcome .text p {
+  margin: 20px 0 50px;
+  font-size: 35px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .home-wrapper .welcome .l3 {
   top: 40px;
   left: 0;
-  margin-top: -4.5rem;
+  margin-top: -2.5rem;
 }
 .home-wrapper .welcome .l2 {
   top: 10px;
   right: 0;
-  margin-top: -5rem;
+  margin-top: -3rem;
 }
 .home-wrapper .welcome .l1 {
   top: 10px;
   left: 0;
-  margin-top: -5.5rem;
+  margin-top: -3.5rem;
+}
+@keyframes cloud1 {
+  0% {
+    left: 7%;
+  }
+  50% {
+    left: 27%;
+  }
+  100% {
+    left: 7%;
+  }
+}
+@keyframes cloud2 {
+  0% {
+    left: 69%;
+  }
+  50% {
+    left: 89%;
+  }
+  100% {
+    left: 69%;
+  }
+}
+.home-wrapper .experience {
+  position: relative;
+  padding: 245px 0;
+  background: url(../images/experience-bck.png) center center no-repeat;
+  background-size: cover;
+}
+.home-wrapper .experience .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1460px;
+}
+.home-wrapper .experience .main-wrapper .content {
+  width: 780px;
+  color: #fff;
+}
+.home-wrapper .experience .main-wrapper .content .title {
+  margin: 0 0 20px;
+  font-size: 55px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .experience .main-wrapper .content .text {
+  margin-bottom: 13px;
+  line-height: 48px;
+  font-size: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .experience .main-wrapper .img {
+  width: 450px;
+  height: 450px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.home-wrapper .sensor {
+  position: relative;
+  padding: 245px 0;
+  background: url(../images/sensor-bck.png) center center no-repeat;
+  background-size: cover;
+}
+.home-wrapper .sensor .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1460px;
+}
+.home-wrapper .sensor .main-wrapper .content {
+  width: 780px;
+  color: #fff;
+}
+.home-wrapper .sensor .main-wrapper .content .title {
+  margin: 0 0 20px;
+  font-size: 55px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .sensor .main-wrapper .content .text {
+  margin-bottom: 13px;
+  line-height: 48px;
+  font-size: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .sensor .main-wrapper .img {
+  width: 450px;
+  height: 450px;
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
 .home-wrapper .privacy {
   padding: 175px 0;
