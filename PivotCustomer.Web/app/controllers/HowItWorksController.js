@@ -1,4 +1,8 @@
 ﻿app.controller('HowItWorksController', function ($rootScope, $scope, $state, $window, $timeout) {
+    $('.approach .bxslider').bxSlider({
+        auto: true
+    });
+
     var stage = 0;
 
     $('.move.left').click(function () {

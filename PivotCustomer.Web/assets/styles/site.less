@@ -601,11 +601,73 @@ footer {
         .left-part {
             width: 30%;
             background-color: #f7f8f9;
+
+            .bx-wrapper {
+                border: none;
+                box-shadow: none;
+                background: none;
+
+                .bx-pager.bx-default-pager {
+                    a {
+                        background: @orange;
+                        opacity: .4;
+
+                        &.active {
+                            background: @orange;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            .bx-controls-direction {
+                display: none;
+            }
+
+            .img {
+                width: 280px;
+                height: 480px;
+                margin: 0 auto;
+                background: url(../images/component1.png) 0 0 no-repeat;
+                background-size: cover;
+            }
         }
 
         .right-part {
-            width: 47%;
-            padding: 6% 18% 6% 5%;
+            flex-wrap: wrap;
+            width: 60%;
+            padding: 60px 10% 75px 0;
+
+            .step-item {
+                position: relative;
+                width: 25%;
+                padding: 75px 5% 60px 20%;
+
+                .icon {
+                    position: absolute;
+                    top: 75px;
+                    left: 20%;
+                    width: 66px;
+                    height: 66px;
+                    border: 1px solid @orange;
+                    border-radius: 10px;
+                }
+
+                .title {
+                    margin-bottom: 25px;
+                    font-size: 26px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #232323;
+                }
+
+                .text {
+                    line-height: 30px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                    color: #595959;
+                }
+            }
         }
     }
 

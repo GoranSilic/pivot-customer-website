@@ -511,9 +511,60 @@ footer .copy:hover {
   width: 30%;
   background-color: #f7f8f9;
 }
+.hiw-wrapper .approach .left-part .bx-wrapper {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+.hiw-wrapper .approach .left-part .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #ff6e19;
+  opacity: .4;
+}
+.hiw-wrapper .approach .left-part .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #ff6e19;
+  opacity: 1;
+}
+.hiw-wrapper .approach .left-part .bx-controls-direction {
+  display: none;
+}
+.hiw-wrapper .approach .left-part .img {
+  width: 280px;
+  height: 480px;
+  margin: 0 auto;
+  background: url(../images/component1.png) 0 0 no-repeat;
+  background-size: cover;
+}
 .hiw-wrapper .approach .right-part {
-  width: 47%;
-  padding: 6% 18% 6% 5%;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 60px 10% 75px 0;
+}
+.hiw-wrapper .approach .right-part .step-item {
+  position: relative;
+  width: 25%;
+  padding: 75px 5% 60px 20%;
+}
+.hiw-wrapper .approach .right-part .step-item .icon {
+  position: absolute;
+  top: 75px;
+  left: 20%;
+  width: 66px;
+  height: 66px;
+  border: 1px solid #ff6e19;
+  border-radius: 10px;
+}
+.hiw-wrapper .approach .right-part .step-item .title {
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #232323;
+}
+.hiw-wrapper .approach .right-part .step-item .text {
+  line-height: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #595959;
 }
 .hiw-wrapper .stages {
   background-color: #00b087;
