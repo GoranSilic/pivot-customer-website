@@ -356,7 +356,7 @@ footer .copy:hover {
 }
 .home-wrapper .sensor {
   position: relative;
-  top: -366px;
+  top: -410px;
   padding: 245px 0;
   background: url(../images/sensor-bck.png) top center no-repeat;
   background-size: cover;
@@ -371,10 +371,24 @@ footer .copy:hover {
   width: 780px;
   color: #fff;
 }
-.home-wrapper .sensor .main-wrapper .content .title {
+.home-wrapper .sensor .main-wrapper .content .subtitle {
   margin: 0 0 20px;
-  font-size: 55px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+}
+.home-wrapper .sensor .main-wrapper .content .title {
+  width: 450px;
+  margin: 0 0 30px;
+  line-height: 52px;
+  font-size: 44px;
   font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .sensor .main-wrapper .content .separator {
+  width: 135px;
+  height: 1px;
+  margin-bottom: 30px;
+  background-color: #ffb819;
 }
 .home-wrapper .sensor .main-wrapper .content .text {
   margin-bottom: 13px;
@@ -388,10 +402,173 @@ footer .copy:hover {
   border: 1px solid #fff;
   border-radius: 20px;
 }
+.home-wrapper .coaching {
+  position: relative;
+  top: -565px;
+  padding: 400px 0 390px;
+  background: url(../images/coaching-bck.png) top center no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.home-wrapper .coaching .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1460px;
+}
+.home-wrapper .coaching .main-wrapper .content {
+  width: 780px;
+  color: #fff;
+}
+.home-wrapper .coaching .main-wrapper .content .subtitle {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+}
+.home-wrapper .coaching .main-wrapper .content .title {
+  width: 450px;
+  margin: 0 0 30px;
+  line-height: 52px;
+  font-size: 44px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .coaching .main-wrapper .content .separator {
+  width: 135px;
+  height: 1px;
+  margin-bottom: 30px;
+  background-color: #ffb819;
+}
+.home-wrapper .coaching .main-wrapper .content .text {
+  margin-bottom: 13px;
+  line-height: 48px;
+  font-size: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .coaching .main-wrapper .img {
+  width: 450px;
+  height: 450px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.home-wrapper .tools {
+  position: relative;
+  top: -725px;
+  padding: 460px 0 316px;
+  background: url(../images/tools-bck.png) top center no-repeat;
+  background-size: cover;
+  z-index: 3;
+}
+.home-wrapper .tools .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1460px;
+}
+.home-wrapper .tools .main-wrapper .content {
+  width: 780px;
+  color: #fff;
+}
+.home-wrapper .tools .main-wrapper .content .subtitle {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+}
+.home-wrapper .tools .main-wrapper .content .title {
+  width: 450px;
+  margin: 0 0 30px;
+  line-height: 52px;
+  font-size: 44px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .tools .main-wrapper .content .separator {
+  width: 135px;
+  height: 1px;
+  margin-bottom: 30px;
+  background-color: #ffb819;
+}
+.home-wrapper .tools .main-wrapper .content .text {
+  margin-bottom: 13px;
+  line-height: 48px;
+  font-size: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .tools .main-wrapper .img {
+  width: 450px;
+  height: 450px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.home-wrapper .quotes {
+  position: relative;
+  top: -725px;
+  background-color: #fff;
+  z-index: 4;
+}
+.home-wrapper .quotes .nav {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 40px;
+  height: 40px;
+  margin-top: -67.5px;
+  background: url(../images/orange-left-arrow.png) 42% center no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.home-wrapper .quotes .nav.right {
+  left: auto;
+  right: 5%;
+  background: url(../images/orange-right-arrow.png) 58% center no-repeat;
+  background-size: contain;
+}
+.home-wrapper .quotes .main-wrapper {
+  width: calc(100% - 460px);
+  padding: 150px 230px;
+}
+.home-wrapper .quotes .main-wrapper .bx-wrapper {
+  border: none;
+  border-bottom: 1px solid #efefef;
+  box-shadow: none;
+}
+.home-wrapper .quotes .main-wrapper .bx-wrapper .bx-controls-auto,
+.home-wrapper .quotes .main-wrapper .bx-wrapper .bx-pager {
+  bottom: -40px;
+}
+.home-wrapper .quotes .main-wrapper .bx-wrapper .bx-pager.bx-default-pager a {
+  background: rgba(255, 110, 25, 0.4);
+}
+.home-wrapper .quotes .main-wrapper .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #ff6e19;
+}
+.home-wrapper .quotes .main-wrapper .bx-controls-direction {
+  display: none;
+}
+.home-wrapper .quotes .main-wrapper .quote {
+  padding: 140px 140px 60px;
+  border-top: 1px solid #efefef;
+  background: url(../images/quote-img.png) center 54px no-repeat;
+  background-size: 50px;
+}
+.home-wrapper .quotes .main-wrapper .quote .content {
+  margin-bottom: 38px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'GothamRounded-Book', sans-serif;
+}
+.home-wrapper .quotes .main-wrapper .quote .client {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  color: #a5b0b7;
+}
 .home-wrapper .privacy {
+  position: relative;
+  top: -725px;
   padding: 175px 0;
   color: #fff;
   background-color: #5a0045;
+  z-index: 5;
 }
 .home-wrapper .privacy .main-wrapper {
   display: flex;
@@ -423,6 +600,11 @@ footer .copy:hover {
   font-size: 24px;
   font-family: 'MaisonNeue-Book', sans-serif;
   color: #ff6e19;
+}
+.home-wrapper .today {
+  position: relative;
+  top: -725px;
+  z-index: 6;
 }
 .home-wrapper .today .left-part {
   width: 28%;

@@ -236,7 +236,6 @@ footer {
 
     .welcome {
         /*height: 1100px;*/
-
         .parallax {
             position: fixed;
         }
@@ -411,7 +410,7 @@ footer {
 
     .sensor {
         position: relative;
-        top: -366px;
+        top: -410px;
         padding: 245px 0;
         background: url(../images/sensor-bck.png) top center no-repeat;
         background-size: cover;
@@ -426,10 +425,26 @@ footer {
                 width: 780px;
                 color: @w;
 
-                .title {
+                .subtitle {
                     margin: 0 0 20px;
-                    font-size: 55px;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                }
+
+                .title {
+                    width: 450px;
+                    margin: 0 0 30px;
+                    line-height: 52px;
+                    font-size: 44px;
                     font-family: 'GothamRounded-Book', sans-serif;
+                }
+
+                .separator {
+                    width: 135px;
+                    height: 1px;
+                    margin-bottom: 30px;
+                    background-color: #ffb819;
                 }
 
                 .text {
@@ -449,10 +464,203 @@ footer {
         }
     }
 
+    .coaching {
+        position: relative;
+            top: -565px;
+        padding: 400px 0 390px;
+        background: url(../images/coaching-bck.png) top center no-repeat;
+        background-size: cover;
+        z-index: 2;
+
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 1460px;
+
+            .content {
+                width: 780px;
+                color: @w;
+
+                .subtitle {
+                    margin: 0 0 20px;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                }
+
+                .title {
+                    width: 450px;
+                    margin: 0 0 30px;
+                    line-height: 52px;
+                    font-size: 44px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                }
+
+                .separator {
+                    width: 135px;
+                    height: 1px;
+                    margin-bottom: 30px;
+                    background-color: #ffb819;
+                }
+
+                .text {
+                    margin-bottom: 13px;
+                    line-height: 48px;
+                    font-size: 30px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                }
+            }
+
+            .img {
+                width: 450px;
+                height: 450px;
+                border: 1px solid @w;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .tools {
+        position: relative;
+        top: -725px;
+        padding: 460px 0 316px;
+        background: url(../images/tools-bck.png) top center no-repeat;
+        background-size: cover;
+        z-index: 3;
+
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 1460px;
+
+            .content {
+                width: 780px;
+                color: @w;
+
+                .subtitle {
+                    margin: 0 0 20px;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                }
+
+                .title {
+                    width: 450px;
+                    margin: 0 0 30px;
+                    line-height: 52px;
+                    font-size: 44px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                }
+
+                .separator {
+                    width: 135px;
+                    height: 1px;
+                    margin-bottom: 30px;
+                    background-color: #ffb819;
+                }
+
+                .text {
+                    margin-bottom: 13px;
+                    line-height: 48px;
+                    font-size: 30px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                }
+            }
+
+            .img {
+                width: 450px;
+                height: 450px;
+                border: 1px solid @w;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .quotes {
+        position: relative;
+        top: -725px;
+        background-color: @w;
+        z-index: 4;
+
+        .nav {
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            width: 40px;
+            height: 40px;
+            margin-top: -67.5px;
+            background: url(../images/orange-left-arrow.png) 42% center no-repeat;
+            background-size: contain;
+            cursor: pointer;
+
+            &.right {
+                left: auto;
+                right: 5%;
+                background: url(../images/orange-right-arrow.png) 58% center no-repeat;
+                background-size: contain;
+            }
+        }
+
+        .main-wrapper {
+            width: ~"calc(100% - 460px)";
+            padding: 150px 230px;
+
+            .bx-wrapper {
+                border: none;
+                border-bottom: 1px solid #efefef;
+                box-shadow: none;
+
+                .bx-controls-auto,
+                .bx-pager {
+                    bottom: -40px;
+                }
+
+                .bx-pager.bx-default-pager {
+                    a {
+                        background: rgba(255, 110, 25, .4);
+
+                        &.active {
+                            background: @orange;
+                        }
+                    }
+                }
+            }
+
+            .bx-controls-direction {
+                display: none;
+            }
+
+            .quote {
+                padding: 140px 140px 60px;
+                border-top: 1px solid #efefef;
+                background: url(../images/quote-img.png) center 54px no-repeat;
+                background-size: 50px;
+
+                .content {
+                    margin-bottom: 38px;
+                    text-align: center;
+                    font-size: 30px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                }
+
+                .client {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                    color: #a5b0b7;
+                }
+            }
+        }
+    }
+
     .privacy {
+        position: relative;
+        top: -725px;
         padding: 175px 0;
         color: @w;
         background-color: #5a0045;
+        z-index: 5;
 
         .main-wrapper {
             display: flex;
@@ -493,6 +701,10 @@ footer {
     }
 
     .today {
+        position: relative;
+        top: -725px;
+        z-index: 6;
+
         .left-part {
             width: 28%;
             padding: 15% 11%;

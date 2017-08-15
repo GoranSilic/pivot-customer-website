@@ -1,4 +1,15 @@
 ﻿app.controller('HomeController', function ($rootScope, $scope, $state, $window, $timeout) {
+    $('.quotes .bxslider').bxSlider();
+
+    $('.quotes .nav').click(function () {
+        if ($(this).hasClass('left')) {
+            $('.quotes .bx-prev').trigger('click');
+        }
+        else if ($(this).hasClass('right')) {
+            $('.quotes .bx-next').trigger('click');
+        }
+    });
+
     // Variables
     var viewport = $(window),
         root = $('html'),
