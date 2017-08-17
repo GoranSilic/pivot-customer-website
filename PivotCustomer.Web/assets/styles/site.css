@@ -131,7 +131,7 @@ header {
   padding: 22px 5%;
   color: #3e3935;
   background-color: #fff;
-  z-index: 1;
+  z-index: 7;
 }
 header .logo {
   /*width: 145px;
@@ -261,7 +261,7 @@ footer .copy:hover {
   margin-top: -1.3rem;
 }
 .home-wrapper .welcome .text {
-  top: 50%;
+  top: 46%;
   left: 50%;
   width: 64%;
   margin-top: -2rem;
@@ -273,6 +273,7 @@ footer .copy:hover {
   transform: translate(-50%, -50%);
   font-family: 'GothamRounded-Light', sans-serif;
   color: #fff;
+  z-index: 6;
 }
 .home-wrapper .welcome .text h1 {
   margin: 0;
@@ -323,7 +324,7 @@ footer .copy:hover {
 }
 .home-wrapper .experience {
   position: relative;
-  top: -300px;
+  /*top: -300px;*/
   padding: 390px 0 320px;
   background: url(../images/experience-bck.png) top center no-repeat;
   background-size: cover;
@@ -356,11 +357,21 @@ footer .copy:hover {
 }
 .home-wrapper .sensor {
   position: relative;
-  top: -410px;
+  /*top: -410px;*/
   padding: 245px 0;
+  /*background: url(../images/sensor-bck.png) top center no-repeat;
+        background-size: cover;*/
+  z-index: 1;
+}
+.home-wrapper .sensor .bck {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  right: 0;
+  height: 1157px;
   background: url(../images/sensor-bck.png) top center no-repeat;
   background-size: cover;
-  z-index: 1;
+  z-index: -1;
 }
 .home-wrapper .sensor .main-wrapper {
   display: flex;
@@ -404,11 +415,21 @@ footer .copy:hover {
 }
 .home-wrapper .coaching {
   position: relative;
-  top: -565px;
+  /*top: -565px;*/
   padding: 400px 0 390px;
+  /*background: url(../images/coaching-bck.png) top center no-repeat;
+        background-size: cover;*/
+  z-index: 2;
+}
+.home-wrapper .coaching .bck {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  right: 0;
+  height: 1236px;
   background: url(../images/coaching-bck.png) top center no-repeat;
   background-size: cover;
-  z-index: 2;
+  z-index: -1;
 }
 .home-wrapper .coaching .main-wrapper {
   display: flex;
@@ -452,11 +473,21 @@ footer .copy:hover {
 }
 .home-wrapper .tools {
   position: relative;
-  top: -725px;
-  padding: 460px 0 316px;
+  /*top: -725px;*/
+  padding: 370px 0 316px;
+  /*background: url(../images/tools-bck.png) top center no-repeat;
+        background-size: cover;*/
+  z-index: 3;
+}
+.home-wrapper .tools .bck {
+  position: absolute;
+  top: -196px;
+  left: 0;
+  right: 0;
+  height: 1424px;
   background: url(../images/tools-bck.png) top center no-repeat;
   background-size: cover;
-  z-index: 3;
+  z-index: -1;
 }
 .home-wrapper .tools .main-wrapper {
   display: flex;
@@ -500,7 +531,7 @@ footer .copy:hover {
 }
 .home-wrapper .quotes {
   position: relative;
-  top: -725px;
+  /*top: -725px;*/
   background-color: #fff;
   z-index: 4;
 }
@@ -564,7 +595,7 @@ footer .copy:hover {
 }
 .home-wrapper .privacy {
   position: relative;
-  top: -725px;
+  /*top: -725px;*/
   padding: 175px 0;
   color: #fff;
   background-color: #5a0045;
@@ -603,7 +634,7 @@ footer .copy:hover {
 }
 .home-wrapper .today {
   position: relative;
-  top: -725px;
+  /*top: -725px;*/
   z-index: 6;
 }
 .home-wrapper .today .left-part {

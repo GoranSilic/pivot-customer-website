@@ -27,6 +27,8 @@
              * Our factor is calculated by multiplying the ratio of the page scrolled by our base factor. The higher the base factor, the larger the parallax effect.
              */
             root.css({ fontSize: (scrolled / maxScroll) * 50 });
+            if (document.body.scrollTop === 0) $('.welcome .text').css('z-index', '6');
+            else $('.welcome .text').css('z-index', '0');
         },
         resize: function () {
             // Calculate the maximum scroll position

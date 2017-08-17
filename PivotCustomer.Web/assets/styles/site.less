@@ -144,7 +144,7 @@ header {
     padding: 22px 5%;
     color: @gray;
     background-color: @w;
-    z-index: 1;
+    z-index: 7;
 
     .logo {
         /*width: 145px;
@@ -296,7 +296,7 @@ footer {
         }
 
         .text {
-            top: 50%;
+            top: 46%;
             left: 50%;
             width: 64%;
             margin-top: -2rem;
@@ -308,6 +308,7 @@ footer {
             transform: translate(-50%, -50%);
             font-family: 'GothamRounded-Light', sans-serif;
             color: @w;
+            z-index: 6;
 
             h1 {
                 margin: 0;
@@ -371,7 +372,7 @@ footer {
 
     .experience {
         position: relative;
-        top: -300px;
+        /*top: -300px;*/
         padding: 390px 0 320px;
         background: url(../images/experience-bck.png) top center no-repeat;
         background-size: cover;
@@ -410,11 +411,22 @@ footer {
 
     .sensor {
         position: relative;
-        top: -410px;
+        /*top: -410px;*/
         padding: 245px 0;
-        background: url(../images/sensor-bck.png) top center no-repeat;
-        background-size: cover;
+        /*background: url(../images/sensor-bck.png) top center no-repeat;
+        background-size: cover;*/
         z-index: 1;
+
+        .bck {
+            position: absolute;
+            top: -80px;
+            left: 0;
+            right: 0;
+            height: 1157px;
+            background: url(../images/sensor-bck.png) top center no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
 
         .main-wrapper {
             display: flex;
@@ -466,11 +478,22 @@ footer {
 
     .coaching {
         position: relative;
-            top: -565px;
+        /*top: -565px;*/
         padding: 400px 0 390px;
-        background: url(../images/coaching-bck.png) top center no-repeat;
-        background-size: cover;
+        /*background: url(../images/coaching-bck.png) top center no-repeat;
+        background-size: cover;*/
         z-index: 2;
+
+        .bck {
+            position: absolute;
+            top: -22px;
+            left: 0;
+            right: 0;
+            height: 1236px;
+            background: url(../images/coaching-bck.png) top center no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
 
         .main-wrapper {
             display: flex;
@@ -522,11 +545,22 @@ footer {
 
     .tools {
         position: relative;
-        top: -725px;
-        padding: 460px 0 316px;
-        background: url(../images/tools-bck.png) top center no-repeat;
-        background-size: cover;
+        /*top: -725px;*/
+        padding: 370px 0 316px;
+        /*background: url(../images/tools-bck.png) top center no-repeat;
+        background-size: cover;*/
         z-index: 3;
+
+        .bck {
+            position: absolute;
+            top: -196px;
+            left: 0;
+            right: 0;
+            height: 1424px;
+            background: url(../images/tools-bck.png) top center no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
 
         .main-wrapper {
             display: flex;
@@ -578,7 +612,7 @@ footer {
 
     .quotes {
         position: relative;
-        top: -725px;
+        /*top: -725px;*/
         background-color: @w;
         z-index: 4;
 
@@ -656,7 +690,7 @@ footer {
 
     .privacy {
         position: relative;
-        top: -725px;
+        /*top: -725px;*/
         padding: 175px 0;
         color: @w;
         background-color: #5a0045;
@@ -702,7 +736,7 @@ footer {
 
     .today {
         position: relative;
-        top: -725px;
+        /*top: -725px;*/
         z-index: 6;
 
         .left-part {
