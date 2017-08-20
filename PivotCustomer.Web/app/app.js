@@ -24,6 +24,18 @@ app.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locatio
             templateUrl: '/views/how-it-works.html',
             pageName: 'How it works',
         })
+        .state('layout.about', {
+            controller: 'AboutUsController',
+            url: '/about-us',
+            templateUrl: '/views/about-us.html',
+            pageName: 'About us',
+        })
+        .state('layout.faq', {
+            controller: 'FaqController',
+            url: '/faq',
+            templateUrl: '/views/faq.html',
+            pageName: 'FAQ',
+        })
         .state('layout.blog', {
             controller: 'BlogController',
             url: '/blog',

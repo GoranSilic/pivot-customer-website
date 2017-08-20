@@ -37,6 +37,13 @@
 }
 
 @font-face {
+    font-family: 'MaisonNeue-Medium';
+    src: url('../fonts/MaisonNeue-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/MaisonNeue-Medium.woff') format('woff'), url('../fonts/MaisonNeue-Medium.ttf') format('truetype'), url('../fonts/MaisonNeue-Medium.svg#MaisonNeue-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'MaisonNeue-Bold';
     src: url('../fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/MaisonNeue-Bold.woff') format('woff'), url('../fonts/MaisonNeue-Bold.ttf') format('truetype'), url('../fonts/MaisonNeue-Bold.svg#MaisonNeue-Bold') format('svg');
     font-weight: normal;
@@ -232,7 +239,7 @@ footer {
 
 /*#region Home page*/
 .home-wrapper {
-    padding-top: 106px;
+    padding-top: 104px;
 
     .welcome {
         /*height: 1100px;*/
@@ -779,7 +786,7 @@ footer {
 
 /*#region How it works page*/
 .hiw-wrapper {
-    padding-top: 106px;
+    padding-top: 104px;
 
     .register {
         position: relative;
@@ -1287,9 +1294,233 @@ footer {
 }
 /*#endregion*/
 
+/*#region About us page*/
+.about-wrapper {
+    padding-top: 104px;
+
+    .welcome {
+        padding: 110px 0;
+        background-color: #173963;
+
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 1460px;
+
+            .content {
+                width: 780px;
+                color: @w;
+
+                .title {
+                    margin: 100px 0 20px;
+                    font-size: 55px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                }
+
+                .text {
+                    line-height: 42px;
+                    font-size: 30px;
+                    font-family: 'GothamRounded-Book', sans-serif;
+                    color: #bac8d1;
+                }
+            }
+
+            .img {
+                width: 450px;
+                height: 450px;
+                border: 1px solid @w;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .note {
+        padding: 160px 0;
+        background-color: #f9f9f9;
+
+        .letter {
+            width: 920px;
+            margin: 0 auto;
+            padding: 110px 150px;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            background-color: @w;
+
+            .title {
+                margin-bottom: 35px;
+                font-size: 40px;
+                font-family: 'MaisonNeue-Medium', sans-serif;
+            }
+
+            p {
+                line-height: 38px;
+                font-size: 24px;
+                font-family: 'GothamRounded-Book', sans-serif;
+            }
+        }
+    }
+
+    .advisors {
+        .top-part {
+            position: relative;
+            padding: 90px 0 80px;
+            text-align: center;
+            background-color: #5a0045;
+
+            .title {
+                margin-bottom: 20px;
+                font-size: 80px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: @w;
+            }
+
+            .info {
+                width: 50%;
+                margin: 0 auto;
+                line-height: 42px;
+                font-size: 30px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: @w;
+            }
+
+            .custom-button {
+                position: absolute;
+                bottom: -30px;
+                left: 50%;
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        }
+
+        .bottom-part {
+            height: 110px;
+            background: linear-gradient(to left, #5a0045, #8c0057 30%, #8c0057 70%, #5a0045 100%);
+        }
+    }
+
+    .how {
+        .top-part {
+            padding: 95px 0;
+            text-align: center;
+            background-color: @green;
+
+            .title {
+                margin-bottom: 20px;
+                font-size: 80px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: @w;
+            }
+
+            .subtitle {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 28px;
+                font-family: 'MaisonNeue-Medium', sans-serif;
+                color: #009167;
+            }
+        }
+
+        .bottom-part {
+            .main-wrapper {
+                width: 1460px;
+                padding-top: 265px;
+
+                .how-item {
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-bottom: 265px;
+
+                    .content {
+                        width: 840px;
+
+                        .subtitle {
+                            margin: 10px 0 15px;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                            font-size: 24px;
+                            font-family: 'MaisonNeue-Medium', sans-serif;
+                            color: #bac8d1;
+                        }
+
+                        .title {
+                            width: 480px;
+                            margin-bottom: 30px;
+                            line-height: 52px;
+                            font-size: 44px;
+                            font-family: 'GothamRounded-Book', sans-serif;
+                            color: #232323;
+                        }
+
+                        .separator {
+                            width: 135px;
+                            height: 1px;
+                            margin-bottom: 25px;
+                            background-color: @green;
+                        }
+
+                        .text {
+                            line-height: 50px;
+                            font-size: 30px;
+                            font-family: 'GothamRounded-Book', sans-serif;
+                            color: #676969;
+                        }
+                    }
+
+                    .img {
+                        width: 450px;
+                        height: 450px;
+                        border: 1px solid @green;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .today {
+        .left-part {
+            width: 28%;
+            padding: 15% 11%;
+            background-color: #173963;
+
+            h3 {
+                text-transform: uppercase;
+                font-size: 28px;
+                font-family: 'MaisonNeue-Book', sans-serif;
+                color: #005499;
+            }
+
+            h2 {
+                margin: 30px 0;
+                font-size: 55px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                font-weight: 500;
+                color: @w;
+            }
+
+            p {
+                margin-bottom: 50px;
+                line-height: 42px;
+                font-size: 30px;
+                font-family: 'GothamRounded-Book', sans-serif;
+                color: #bac8d1;
+            }
+        }
+
+        .right-part {
+            width: 50%;
+            background: url(../images/today-bck.png) 0 0 no-repeat;
+            background-size: cover;
+        }
+    }
+}
+/*#endregion*/
+
 /*#region Blog page*/
 .blog-wrapper {
-    padding-top: 106px;
+    padding-top: 104px;
 
     .welcome {
         padding: 80px 0;
