@@ -1154,6 +1154,55 @@ footer .copy:hover {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.about-wrapper .advisors .advisors-box {
+  display: none;
+  padding: 240px 0;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper {
+  width: 1460px;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor .content {
+  width: 920px;
+  color: #fff;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .name {
+  margin: 0 0 20px;
+  font-size: 44px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #232323;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .title {
+  width: 560px;
+  margin: 0 0 25px;
+  line-height: 30px;
+  font-size: 24px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-style: italic;
+  color: #bac8d1;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .separator {
+  width: 135px;
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #00b087;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .text {
+  line-height: 50px;
+  font-size: 28px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #676969;
+}
+.about-wrapper .advisors .advisors-box .main-wrapper .advisor .img {
+  width: 380px;
+  height: 380px;
+  border: 1px solid #3e3935;
+  border-radius: 20px;
+}
 .about-wrapper .advisors .bottom-part {
   height: 110px;
   background: linear-gradient(to left, #5a0045, #8c0057 30%, #8c0057 70%, #5a0045 100%);
