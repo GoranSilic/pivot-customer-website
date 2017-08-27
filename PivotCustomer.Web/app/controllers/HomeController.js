@@ -1,4 +1,6 @@
 ﻿app.controller('HomeController', function ($rootScope, $scope, $state, $window, $timeout) {
+    $(window).scrollTop(0);
+
     $('.quotes .bxslider').bxSlider();
 
     $('.quotes .nav').click(function () {
