@@ -1,1 +1,120 @@
 ﻿@import "_variables.less";
+
+@media screen and (max-width: 1500px) {
+    .custom-button {
+        width: 300px;
+        padding: 4px 0 8px;
+        font-size: 24px;
+    }
+
+    .main-wrapper {
+        width: 1300px;
+    }
+
+    header {
+        padding: 15px 5%;
+
+        .logo {
+            width: 153px;
+            height: 33px;
+            margin: 9px 50px 9px 0;
+            background-size: 153px 33px;
+        }
+
+        nav {
+            ul {
+                li {
+                    margin: 9px 20px;
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .login {
+            margin: 10px 26px;
+            font-size: 24px;
+        }
+
+        .custom-button {
+            width: 195px;
+            padding: 4px 0 8px;
+            font-size: 24px;
+        }
+    }
+
+    .blog-wrapper {
+        padding-top: 81px;
+
+        .welcome {
+            padding: 70px 0;
+
+            h1 {
+                font-size: 60px;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+
+        .posts {
+            padding: 120px 0 0;
+
+            .main-wrapper {
+                width: 1300px;
+
+                .post {
+                    width: 24%;
+                    margin: 0 4.6% 100px;
+
+                    .timestamp {
+                        font-size: 20px;
+                    }
+
+                    .title {
+                        margin-bottom: 20px;
+                        line-height: 34px;
+                        font-size: 28px;
+                    }
+
+                    &.newsletter {
+                        padding: 36px 27px;
+                    }
+                }
+            }
+        }
+    }
+
+    .faq-wrapper {
+        padding-top: 81px;
+
+        .welcome {
+            padding: 70px 0;
+
+            h1 {
+                font-size: 60px;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+
+        .faqs {
+            padding: 100px 0;
+
+            .main-wrapper {
+                display: block;
+                width: 1300px;
+
+                .accordion {
+                    padding: 40px 110px;
+
+                    .toggle {
+                        top: 46px;
+                    }
+                }
+            }
+        }
+    }
+}

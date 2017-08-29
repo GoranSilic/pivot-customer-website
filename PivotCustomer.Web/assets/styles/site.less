@@ -1782,6 +1782,7 @@ footer {
             width: 1450px;
 
             .accordion {
+                position: relative;
                 width: ~"calc(100% - 220px)";
                 padding: 50px 110px;
                 box-shadow: 0 0 10px rgba(0,0,0,.05);
@@ -1790,6 +1791,21 @@ footer {
                 color: #232323;
                 background-color: @w;
                 cursor: pointer;
+
+                .toggle {
+                    position: absolute;
+                    right: 70px;
+                    top: 54px;
+                    width: 31px;
+                    height: 31px;
+                    background: url(../images/faq-toggle.png) 0 0 no-repeat;
+                }
+
+                &.active {
+                    .toggle {
+                        background-position: bottom left;
+                    }
+                }
             }
 
             .panel {
@@ -1816,6 +1832,26 @@ footer {
 
                     &:last-of-type {
                         margin-bottom: 50px;
+                    }
+
+                    a {
+                        color: @orange;
+                    }
+                }
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+
+                    li {
+                        &:before {
+                            content: "-";
+                            margin-right: 10px;
+                            font-size: 24px;
+                            font-family: 'GothamRounded-Book', sans-serif;
+                            color: #00b188;
+                        }
                     }
                 }
             }

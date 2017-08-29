@@ -1481,6 +1481,7 @@ footer .copy:hover {
   width: 1450px;
 }
 .faq-wrapper .faqs .main-wrapper .accordion {
+  position: relative;
   width: calc(100% - 220px);
   padding: 50px 110px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -1489,6 +1490,17 @@ footer .copy:hover {
   color: #232323;
   background-color: #fff;
   cursor: pointer;
+}
+.faq-wrapper .faqs .main-wrapper .accordion .toggle {
+  position: absolute;
+  right: 70px;
+  top: 54px;
+  width: 31px;
+  height: 31px;
+  background: url(../images/faq-toggle.png) 0 0 no-repeat;
+}
+.faq-wrapper .faqs .main-wrapper .accordion.active .toggle {
+  background-position: bottom left;
 }
 .faq-wrapper .faqs .main-wrapper .panel {
   width: calc(100% - 220px);
@@ -1512,6 +1524,21 @@ footer .copy:hover {
 }
 .faq-wrapper .faqs .main-wrapper .panel p:last-of-type {
   margin-bottom: 50px;
+}
+.faq-wrapper .faqs .main-wrapper .panel p a {
+  color: #ff6e19;
+}
+.faq-wrapper .faqs .main-wrapper .panel ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.faq-wrapper .faqs .main-wrapper .panel ul li:before {
+  content: "-";
+  margin-right: 10px;
+  font-size: 24px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  color: #00b188;
 }
 /*#endregion*/
 /*#region Blog page*/
