@@ -1528,6 +1528,9 @@ footer .copy:hover {
 .faq-wrapper .faqs .main-wrapper .panel p a {
   color: #ff6e19;
 }
+.faq-wrapper .faqs .main-wrapper .panel img {
+  width: 100%;
+}
 .faq-wrapper .faqs .main-wrapper .panel ul {
   margin: 0;
   padding: 0;
