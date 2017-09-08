@@ -1,4 +1,4 @@
-﻿/*#region Constants */
+/*#region Constants */
 /*#endregion */
 /*#region Fonts*/
 @font-face {
@@ -62,7 +62,7 @@ body {
   font-size: 16px;
   font-family: 'GothamRounded-Medium', sans-serif;
   color: #3e3935;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .center {
   display: table;
@@ -103,12 +103,12 @@ button {
   font-family: 'GothamRounded-Medium', sans-serif;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   color: #ff6e19;
-  background-color: #fff;
+  background-color: #ffffff;
   cursor: pointer;
 }
 .custom-button:hover {
   box-shadow: none;
-  color: #fff;
+  color: #ffffff;
   background-color: #ff6e19;
 }
 ::-webkit-input-placeholder {
@@ -136,7 +136,7 @@ header {
   width: 90%;
   padding: 22px 5%;
   color: #3e3935;
-  background-color: #fff;
+  background-color: #ffffff;
   z-index: 7;
 }
 header .logo {
@@ -278,7 +278,7 @@ footer .copy:hover {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
   z-index: 6;
 }
 .home-wrapper .welcome .text h1 {
@@ -356,7 +356,7 @@ footer .copy:hover {
 }
 .home-wrapper .experience .main-wrapper .content {
   width: 780px;
-  color: #fff;
+  color: #ffffff;
 }
 .home-wrapper .experience .main-wrapper .content .title {
   margin: 0 0 20px;
@@ -381,7 +381,7 @@ footer .copy:hover {
 .home-wrapper .experience .main-wrapper .img {
   width: 450px;
   height: 450px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 20px;
 }
 .home-wrapper .sensor {
@@ -409,7 +409,7 @@ footer .copy:hover {
 }
 .home-wrapper .sensor .main-wrapper .content {
   width: 780px;
-  color: #fff;
+  color: #ffffff;
 }
 .home-wrapper .sensor .main-wrapper .content .subtitle {
   margin: 0 0 20px;
@@ -439,7 +439,7 @@ footer .copy:hover {
 .home-wrapper .sensor .main-wrapper .img {
   width: 450px;
   height: 450px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 20px;
 }
 .home-wrapper .coaching {
@@ -467,7 +467,7 @@ footer .copy:hover {
 }
 .home-wrapper .coaching .main-wrapper .content {
   width: 780px;
-  color: #fff;
+  color: #ffffff;
 }
 .home-wrapper .coaching .main-wrapper .content .subtitle {
   margin: 0 0 20px;
@@ -497,7 +497,7 @@ footer .copy:hover {
 .home-wrapper .coaching .main-wrapper .img {
   width: 450px;
   height: 450px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 20px;
 }
 .home-wrapper .tools {
@@ -525,7 +525,7 @@ footer .copy:hover {
 }
 .home-wrapper .tools .main-wrapper .content {
   width: 780px;
-  color: #fff;
+  color: #ffffff;
 }
 .home-wrapper .tools .main-wrapper .content .subtitle {
   margin: 0 0 20px;
@@ -555,13 +555,13 @@ footer .copy:hover {
 .home-wrapper .tools .main-wrapper .img {
   width: 450px;
   height: 450px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 20px;
 }
 .home-wrapper .quotes {
   position: relative;
   /*top: -725px;*/
-  background-color: #fff;
+  background-color: #ffffff;
   z-index: 4;
 }
 .home-wrapper .quotes .nav {
@@ -626,7 +626,7 @@ footer .copy:hover {
   position: relative;
   /*top: -725px;*/
   padding: 175px 0;
-  color: #fff;
+  color: #ffffff;
   background-color: #5a0045;
   z-index: 5;
 }
@@ -682,7 +682,7 @@ footer .copy:hover {
   font-size: 55px;
   font-family: 'GothamRounded-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .home-wrapper .today .left-part p {
   margin-bottom: 50px;
@@ -727,7 +727,7 @@ footer .copy:hover {
   margin-top: 0;
   font-size: 80px;
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .register .main-wrapper .separator {
   width: 200px;
@@ -739,7 +739,7 @@ footer .copy:hover {
   margin-bottom: 80px;
   font-size: 30px;
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .info .left-part {
   width: 34%;
@@ -760,7 +760,7 @@ footer .copy:hover {
   font-size: 40px;
   font-family: 'MaisonNeue-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .info .right-part p {
   line-height: 38px;
@@ -888,7 +888,7 @@ footer .copy:hover {
   bottom: -50px;
   font-size: 24px;
   font-family: 'MaisonNeue-Book', sans-serif;
-  color: #fff;
+  color: #ffffff;
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
@@ -914,7 +914,7 @@ footer .copy:hover {
   content: "Sustain";
 }
 .hiw-wrapper .stages .main-wrapper .nav .dot.active {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .nav .dot.active:after {
   font-family: 'MaisonNeue-Bold', sans-serif;
@@ -988,13 +988,13 @@ footer .copy:hover {
   font-size: 24px;
   font-family: 'MaisonNeue-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage h1 {
   margin: 0 0 30px;
   font-size: 80px;
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage .separator {
   width: 105px;
@@ -1006,7 +1006,7 @@ footer .copy:hover {
   width: 55%;
   font-size: 24px;
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage p.goal {
   font-style: italic;
@@ -1029,7 +1029,7 @@ footer .copy:hover {
   text-align: center;
   font-size: 110px;
   font-family: 'GothamRounded-Book', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage .chart .value:after {
   content: "DAYS";
@@ -1041,7 +1041,7 @@ footer .copy:hover {
   font-size: 24px;
   font-family: 'MaisonNeue-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage.explore .chart {
   background: url(../images/ring-explore.png) center center no-repeat;
@@ -1066,7 +1066,7 @@ footer .copy:hover {
   font-size: 24px;
   font-family: 'MaisonNeue-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .stages .main-wrapper .content .stage.mobilize .chart {
   background: url(../images/ring-mobilize.png) center center no-repeat;
@@ -1112,7 +1112,7 @@ footer .copy:hover {
   font-size: 55px;
   font-family: 'GothamRounded-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .hiw-wrapper .today .left-part p {
   margin-bottom: 50px;
@@ -1142,7 +1142,7 @@ footer .copy:hover {
 }
 .about-wrapper .welcome .main-wrapper .content {
   width: 780px;
-  color: #fff;
+  color: #ffffff;
 }
 .about-wrapper .welcome .main-wrapper .content .title {
   margin: 100px 0 20px;
@@ -1158,7 +1158,7 @@ footer .copy:hover {
 .about-wrapper .welcome .main-wrapper .img {
   width: 450px;
   height: 450px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 20px;
 }
 .about-wrapper .note {
@@ -1170,7 +1170,7 @@ footer .copy:hover {
   margin: 0 auto;
   padding: 110px 150px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .about-wrapper .note .letter .title {
   margin-bottom: 35px;
@@ -1192,7 +1192,7 @@ footer .copy:hover {
   margin-bottom: 20px;
   font-size: 80px;
   font-family: 'GothamRounded-Book', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .about-wrapper .advisors .top-part .info {
   width: 50%;
@@ -1200,7 +1200,7 @@ footer .copy:hover {
   line-height: 42px;
   font-size: 30px;
   font-family: 'GothamRounded-Book', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .about-wrapper .advisors .top-part .custom-button {
   position: absolute;
@@ -1240,7 +1240,7 @@ footer .copy:hover {
 }
 .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content {
   width: 920px;
-  color: #fff;
+  color: #ffffff;
 }
 .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .name {
   margin: 0 0 20px;
@@ -1366,7 +1366,7 @@ footer .copy:hover {
   margin-bottom: 20px;
   font-size: 80px;
   font-family: 'GothamRounded-Book', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .about-wrapper .how .top-part .subtitle {
   text-transform: uppercase;
@@ -1437,7 +1437,7 @@ footer .copy:hover {
   font-size: 55px;
   font-family: 'GothamRounded-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .about-wrapper .today .left-part p {
   margin-bottom: 50px;
@@ -1465,7 +1465,7 @@ footer .copy:hover {
   margin: 0;
   font-size: 80px;
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .faq-wrapper .welcome h3 {
   text-transform: uppercase;
@@ -1488,7 +1488,7 @@ footer .copy:hover {
   font-size: 30px;
   font-family: 'GothamRounded-Book', sans-serif;
   color: #232323;
-  background-color: #fff;
+  background-color: #ffffff;
   cursor: pointer;
 }
 .faq-wrapper .faqs .main-wrapper .accordion .toggle {
@@ -1557,7 +1557,7 @@ footer .copy:hover {
   margin: 0;
   font-size: 80px;
   font-family: 'GothamRounded-Light', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 .blog-wrapper .welcome h3 {
   text-transform: uppercase;
@@ -1674,7 +1674,7 @@ footer .copy:hover {
   font-size: 55px;
   font-family: 'GothamRounded-Book', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .blog-wrapper .today .left-part p {
   margin-bottom: 50px;

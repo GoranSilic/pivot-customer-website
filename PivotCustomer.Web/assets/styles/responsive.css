@@ -1,4 +1,4 @@
-﻿/*#region Constants */
+/*#region Constants */
 /*#endregion */
 @media screen and (max-width: 1500px) {
   .custom-button {
@@ -444,6 +444,11 @@
   .main-wrapper {
     width: 900px;
   }
+  .custom-button {
+    width: 250px;
+    padding: 4px 0 6px;
+    font-size: 20px;
+  }
   header {
     width: 94%;
     padding: 15px 3%;
@@ -466,5 +471,344 @@
     width: 180px;
     padding: 3px 0 6px;
     font-size: 22px;
+  }
+  footer {
+    width: 94%;
+    padding: 15px 3%;
+  }
+  footer .logo {
+    margin-right: 20px;
+  }
+  footer .link,
+  footer .copy {
+    margin: 17px 10px 13px;
+    font-size: 14px;
+  }
+  .blog-wrapper {
+    padding-top: 75px;
+  }
+  .blog-wrapper .welcome {
+    padding: 50px 0;
+  }
+  .blog-wrapper .welcome h1 {
+    font-size: 50px;
+  }
+  .blog-wrapper .welcome h3 {
+    font-size: 18px;
+  }
+  .blog-wrapper .posts {
+    padding: 80px 0 0;
+  }
+  .blog-wrapper .posts .main-wrapper {
+    width: 900px;
+  }
+  .blog-wrapper .posts .main-wrapper .post {
+    margin: 0 4.6% 60px;
+  }
+  .blog-wrapper .posts .main-wrapper .post img {
+    margin-bottom: 15px;
+  }
+  .blog-wrapper .posts .main-wrapper .post .timestamp {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .blog-wrapper .posts .main-wrapper .post .title {
+    margin-bottom: 10px;
+    line-height: 26px;
+    font-size: 20px;
+  }
+  .blog-wrapper .posts .main-wrapper .post .text {
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .blog-wrapper .posts .main-wrapper .post .custom-button {
+    width: 180px;
+    font-size: 16px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter {
+    width: calc(24% - 30px);
+    height: 186px;
+    padding: 15px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter .label {
+    font-size: 16px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter .send-email input {
+    width: calc(100% - 40px);
+    padding: 5px;
+    font-size: 14px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter .send-email .send-button {
+    width: 33px;
+    height: 33px;
+    background-size: 70%;
+  }
+  .blog-wrapper .today .left-part {
+    padding: 5% 11%;
+  }
+  .blog-wrapper .today .left-part h3 {
+    font-size: 18px;
+  }
+  .blog-wrapper .today .left-part h2 {
+    margin: 10px 0;
+    font-size: 38px;
+  }
+  .blog-wrapper .today .left-part p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .faq-wrapper {
+    padding-top: 75px;
+  }
+  .faq-wrapper .welcome {
+    padding: 50px 0;
+  }
+  .faq-wrapper .welcome h1 {
+    font-size: 50px;
+  }
+  .faq-wrapper .welcome h3 {
+    font-size: 18px;
+  }
+  .faq-wrapper .faqs {
+    padding: 70px 0;
+  }
+  .faq-wrapper .faqs .main-wrapper {
+    width: 900px;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion {
+    width: calc(100% - 160px);
+    padding: 30px 80px;
+    font-size: 20px;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion .toggle {
+    top: 28px;
+    right: 60px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel {
+    width: calc(100% - 160px);
+    padding: 0 80px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel p:first-of-type {
+    margin-top: 35px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel p:last-of-type {
+    margin-bottom: 35px;
+  }
+  .about-wrapper {
+    padding-top: 75px;
+  }
+  .about-wrapper .welcome {
+    padding: 50px 0;
+  }
+  .about-wrapper .welcome .main-wrapper {
+    width: 900px;
+  }
+  .about-wrapper .welcome .main-wrapper .content {
+    width: 480px;
+  }
+  .about-wrapper .welcome .main-wrapper .content .title {
+    margin: 30px 0 15px;
+    font-size: 43px;
+  }
+  .about-wrapper .welcome .main-wrapper .content .text {
+    line-height: 32px;
+    font-size: 20px;
+  }
+  .about-wrapper .welcome .main-wrapper .img {
+    width: 300px;
+    height: 300px;
+  }
+  .about-wrapper .note {
+    padding: 50px 0;
+  }
+  .about-wrapper .note .letter {
+    width: 700px;
+    padding: 50px 70px;
+  }
+  .about-wrapper .note .letter .title {
+    font-size: 30px;
+  }
+  .about-wrapper .note .letter p {
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .about-wrapper .advisors .top-part {
+    padding: 50px 0 60px;
+  }
+  .about-wrapper .advisors .top-part .title {
+    font-size: 54px;
+  }
+  .about-wrapper .advisors .top-part .info {
+    line-height: 32px;
+    font-size: 22px;
+  }
+  .about-wrapper .advisors .top-part .custom-button {
+    bottom: -22px;
+  }
+  .about-wrapper .advisors .bottom-part {
+    height: 70px;
+  }
+  .about-wrapper .advisors .bottom-part .custom-button {
+    top: -22px;
+  }
+  .about-wrapper .advisors .advisors-box {
+    padding-top: 100px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper {
+    width: 900px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper:after {
+    right: 130px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor {
+    margin-bottom: 100px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content {
+    width: 580px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .name {
+    margin: 0 0 15px;
+    font-size: 34px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .title {
+    line-height: 22px;
+    font-size: 18px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .text {
+    height: 120px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .img {
+    width: 260px;
+    height: 260px;
+  }
+  .about-wrapper .how .top-part {
+    padding: 60px 0;
+  }
+  .about-wrapper .how .top-part .title {
+    font-size: 54px;
+  }
+  .about-wrapper .how .top-part .subtitle {
+    font-size: 20px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper {
+    width: 900px;
+    padding-top: 80px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item {
+    margin-bottom: 80px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content {
+    width: 540px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .subtitle {
+    font-size: 18px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .title {
+    margin-bottom: 22px;
+    line-height: 36px;
+    font-size: 30px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .separator {
+    margin-bottom: 20px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .text {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .img {
+    width: 260px;
+    height: 260px;
+  }
+  .about-wrapper .today .left-part {
+    padding: 5% 11%;
+  }
+  .about-wrapper .today .left-part h3 {
+    font-size: 18px;
+  }
+  .about-wrapper .today .left-part h2 {
+    margin: 10px 0;
+    font-size: 38px;
+  }
+  .about-wrapper .today .left-part p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .hiw-wrapper {
+    padding-top: 75px;
+  }
+  .hiw-wrapper .register {
+    padding: 5% 0;
+  }
+  .hiw-wrapper .register .main-wrapper {
+    width: 800px;
+  }
+  .hiw-wrapper .register .main-wrapper h1 {
+    font-size: 56px;
+  }
+  .hiw-wrapper .register .main-wrapper p {
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+  .hiw-wrapper .info .right-part h3 {
+    font-size: 24px;
+  }
+  .hiw-wrapper .info .right-part h2 {
+    font-size: 36px;
+  }
+  .hiw-wrapper .info .right-part p {
+    line-height: 32px;
+    font-size: 20px;
+  }
+  .hiw-wrapper .approach .left-part .img {
+    width: 300px;
+    height: 500px;
+  }
+  .hiw-wrapper .approach .left-part .img.first {
+    background-size: 300px;
+  }
+  .hiw-wrapper .approach .left-part .img.second {
+    background-size: 300px;
+  }
+  .hiw-wrapper .approach .left-part .img.second video {
+    top: 147px;
+    left: 88px;
+    width: 117px;
+  }
+  .hiw-wrapper .approach .left-part .img.third {
+    background-size: 300px;
+  }
+  .hiw-wrapper .approach .left-part .img.third video {
+    top: 147px;
+    left: 88px;
+    width: 117px;
+  }
+  .hiw-wrapper .approach .left-part .img.fourth {
+    background-size: 300px;
+  }
+  .hiw-wrapper .approach .left-part .img.fourth video {
+    top: 147px;
+    left: 88px;
+    width: 117px;
+  }
+  .hiw-wrapper .approach .right-part .step-item {
+    width: 35%;
+    padding: 75px 3% 0 12%;
+  }
+  .hiw-wrapper .approach .right-part .step-item .icon {
+    left: 4%;
+    width: 50px;
+    height: 50px;
+  }
+  .hiw-wrapper .approach .right-part .step-item .title {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .hiw-wrapper .approach .right-part .step-item .text {
+    line-height: 26px;
   }
 }
