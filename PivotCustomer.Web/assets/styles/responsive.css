@@ -795,9 +795,13 @@
     left: 88px;
     width: 117px;
   }
+  .hiw-wrapper .approach .right-part {
+    width: 62%;
+    padding: 0 4% 50px 0;
+  }
   .hiw-wrapper .approach .right-part .step-item {
     width: 35%;
-    padding: 75px 3% 0 12%;
+    padding: 75px 1% 0 14%;
   }
   .hiw-wrapper .approach .right-part .step-item .icon {
     left: 4%;
@@ -809,6 +813,72 @@
     font-size: 22px;
   }
   .hiw-wrapper .approach .right-part .step-item .text {
-    line-height: 26px;
+    line-height: 24px;
+    font-size: 15px;
+  }
+  .hiw-wrapper .stages .main-wrapper {
+    width: 90%;
+    padding: 60px 5% 70px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage {
+    padding: 40px 5%;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage p {
+    font-size: 18px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage .chart {
+    right: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage .chart .value {
+    line-height: 280px;
+    font-size: 90px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .move.left {
+    left: -47px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .move.right {
+    right: -47px;
+  }
+  .hiw-wrapper .today .left-part {
+    padding: 5% 11%;
+  }
+  .hiw-wrapper .today .left-part h3 {
+    font-size: 18px;
+  }
+  .hiw-wrapper .today .left-part h2 {
+    margin: 10px 0;
+    font-size: 38px;
+  }
+  .hiw-wrapper .today .left-part p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .home-wrapper {
+    padding-top: 75px;
+  }
+  .home-wrapper .welcome .text h1 {
+    font-size: 50px;
+  }
+  .home-wrapper .welcome .text p {
+    font-size: 24px;
+  }
+  .home-wrapper .experience .main-wrapper {
+    width: 900px;
+  }
+  .home-wrapper .experience .main-wrapper .content {
+    width: 480px;
+  }
+  .home-wrapper .experience .main-wrapper .content .title {
+    font-size: 36px;
+  }
+  .home-wrapper .experience .main-wrapper .content .text {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .home-wrapper .experience .main-wrapper .img {
+    width: 300px;
+    height: 300px;
   }
 }
