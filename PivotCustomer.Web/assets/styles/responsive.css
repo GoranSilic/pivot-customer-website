@@ -1,4 +1,4 @@
-/*#region Constants */
+﻿/*#region Constants */
 /*#endregion */
 @media screen and (max-width: 1500px) {
   .custom-button {
@@ -864,6 +864,9 @@
   .home-wrapper .welcome .text p {
     font-size: 24px;
   }
+  .home-wrapper .experience {
+    padding: 240px 0 170px;
+  }
   .home-wrapper .experience .main-wrapper {
     width: 900px;
   }
@@ -877,8 +880,708 @@
     line-height: 32px;
     font-size: 18px;
   }
+  .home-wrapper .experience .main-wrapper .content .custom-button {
+    background-size: 23px;
+  }
   .home-wrapper .experience .main-wrapper .img {
     width: 300px;
     height: 300px;
+  }
+  .home-wrapper .sensor {
+    padding: 95px 0;
+  }
+  .home-wrapper .sensor .main-wrapper {
+    width: 900px;
+  }
+  .home-wrapper .sensor .main-wrapper .content {
+    width: 480px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .subtitle {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .title {
+    margin: 0 0 20px;
+    line-height: 42px;
+    font-size: 36px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .separator {
+    margin-bottom: 20px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .text {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .custom-button {
+    background-size: 23px;
+  }
+  .home-wrapper .sensor .main-wrapper .img {
+    width: 300px;
+    height: 300px;
+  }
+  .home-wrapper .coaching {
+    padding: 250px 0 240px;
+  }
+  .home-wrapper .coaching .main-wrapper {
+    width: 900px;
+  }
+  .home-wrapper .coaching .main-wrapper .content {
+    width: 480px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .subtitle {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .title {
+    margin: 0 0 20px;
+    line-height: 42px;
+    font-size: 36px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .separator {
+    margin-bottom: 20px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .text {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .custom-button {
+    background-size: 23px;
+  }
+  .home-wrapper .coaching .main-wrapper .img {
+    width: 300px;
+    height: 300px;
+  }
+  .home-wrapper .tools {
+    padding: 120px 0 166px;
+  }
+  .home-wrapper .tools .main-wrapper {
+    width: 900px;
+  }
+  .home-wrapper .tools .main-wrapper .content {
+    width: 480px;
+  }
+  .home-wrapper .tools .main-wrapper .content .subtitle {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  .home-wrapper .tools .main-wrapper .content .title {
+    margin: 0 0 20px;
+    line-height: 42px;
+    font-size: 36px;
+  }
+  .home-wrapper .tools .main-wrapper .content .separator {
+    margin-bottom: 20px;
+  }
+  .home-wrapper .tools .main-wrapper .content .text {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .home-wrapper .tools .main-wrapper .content .custom-button {
+    background-size: 23px;
+  }
+  .home-wrapper .tools .main-wrapper .img {
+    width: 300px;
+    height: 300px;
+  }
+  .home-wrapper .quotes .main-wrapper {
+    width: calc(100% - 240px);
+    padding: 50px 120px 10px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote {
+    padding: 100px 70px 30px;
+    background-position: center 34px;
+    background-size: 40px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote .content {
+    font-size: 22px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote .client {
+    font-size: 20px;
+  }
+  .home-wrapper .privacy {
+    padding: 80px 0;
+  }
+  .home-wrapper .privacy .main-wrapper {
+    width: 900px;
+  }
+  .home-wrapper .privacy .main-wrapper .info {
+    width: 73%;
+  }
+  .home-wrapper .privacy .main-wrapper .info .title {
+    font-size: 30px;
+  }
+  .home-wrapper .privacy .main-wrapper .info .text {
+    line-height: 32px;
+    font-size: 20px;
+  }
+  .home-wrapper .privacy .main-wrapper .info .labels {
+    font-size: 20px;
+  }
+  .home-wrapper .today .left-part {
+    padding: 5% 11%;
+  }
+  .home-wrapper .today .left-part h3 {
+    font-size: 18px;
+  }
+  .home-wrapper .today .left-part h2 {
+    margin: 10px 0;
+    font-size: 38px;
+  }
+  .home-wrapper .today .left-part p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-wrapper {
+    width: 700px;
+  }
+  .custom-button {
+    width: 200px;
+    font-size: 18px;
+  }
+  header .logo {
+    width: 124px;
+    height: 26px;
+    margin: 7px 15px 7px 0;
+    background-size: 124px 26px;
+  }
+  header nav ul li {
+    margin: 7px 8px;
+    font-size: 18px;
+  }
+  header .login {
+    margin: 7px 16px 7px 8px;
+    font-size: 18px;
+  }
+  header .custom-button {
+    width: 140px;
+    padding: 4px 0 6px;
+    font-size: 18px;
+  }
+  footer .link,
+  footer .copy {
+    margin: 17px 8px 13px;
+    font-size: 12px;
+  }
+  .blog-wrapper {
+    padding-top: 70px;
+  }
+  .blog-wrapper .welcome h1 {
+    font-size: 44px;
+  }
+  .blog-wrapper .posts {
+    padding: 50px 0 0;
+  }
+  .blog-wrapper .posts .main-wrapper {
+    width: 700px;
+  }
+  .blog-wrapper .posts .main-wrapper .post {
+    width: 28%;
+    margin: 0 2.6% 60px;
+  }
+  .blog-wrapper .posts .main-wrapper .post .title {
+    font-size: 18px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter {
+    width: calc(28% - 30px);
+    height: 166px;
+    padding: 15px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter .send-email input {
+    padding: 7.5px 5px;
+    font-size: 12px;
+  }
+  .blog-wrapper .today .left-part {
+    width: 32%;
+    padding: 5% 9%;
+  }
+  .faq-wrapper {
+    padding-top: 70px;
+  }
+  .faq-wrapper .welcome h1 {
+    font-size: 44px;
+  }
+  .faq-wrapper .faqs {
+    padding: 50px 0;
+  }
+  .faq-wrapper .faqs .main-wrapper {
+    width: 700px;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion {
+    width: calc(100% - 80px);
+    padding: 25px 40px;
+    font-size: 18px;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion .toggle {
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel {
+    width: calc(100% - 80px);
+    padding: 0 40px;
+    line-height: 28px;
+    font-size: 16px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel p:first-of-type {
+    margin-top: 25px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel p:last-of-type {
+    margin-bottom: 25px;
+  }
+  .about-wrapper {
+    padding-top: 70px;
+  }
+  .about-wrapper .welcome .main-wrapper {
+    width: 700px;
+  }
+  .about-wrapper .welcome .main-wrapper .content {
+    width: 380px;
+  }
+  .about-wrapper .welcome .main-wrapper .content .title {
+    font-size: 38px;
+  }
+  .about-wrapper .welcome .main-wrapper .content .text {
+    line-height: 28px;
+    font-size: 17px;
+  }
+  .about-wrapper .welcome .main-wrapper .img {
+    width: 250px;
+    height: 250px;
+  }
+  .about-wrapper .note .letter {
+    width: 500px;
+    padding: 50px 70px;
+  }
+  .about-wrapper .note .letter .title {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .about-wrapper .note .letter p {
+    line-height: 26px;
+    font-size: 15px;
+  }
+  .about-wrapper .advisors .top-part {
+    padding: 40px 0 50px;
+  }
+  .about-wrapper .advisors .top-part .title {
+    font-size: 48px;
+  }
+  .about-wrapper .advisors .top-part .info {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .about-wrapper .advisors .advisors-box {
+    padding-top: 60px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper {
+    width: 700px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper:after {
+    right: 100px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor {
+    margin-bottom: 60px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content {
+    width: 480px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .name {
+    margin: 0 0 10px;
+    font-size: 26px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .title {
+    width: 100%;
+    margin: 0 0 15px;
+    font-size: 16px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .content .text {
+    height: 110px;
+    line-height: 28px;
+    font-size: 16px;
+  }
+  .about-wrapper .advisors .advisors-box .main-wrapper .advisor .img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-wrapper .how .top-part {
+    padding: 50px 0;
+  }
+  .about-wrapper .how .top-part .title {
+    font-size: 48px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper {
+    width: 700px;
+    padding-top: 50px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item {
+    margin-bottom: 50px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content {
+    width: 440px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .subtitle {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .title {
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 32px;
+    font-size: 26px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .separator {
+    margin-bottom: 15px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .content .text {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .about-wrapper .how .bottom-part .main-wrapper .how-item .img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-wrapper .today .left-part {
+    width: 32%;
+    padding: 5% 9%;
+  }
+  .hiw-wrapper {
+    padding-top: 70px;
+  }
+  .hiw-wrapper .register:after {
+    background-size: 32px 20px;
+  }
+  .hiw-wrapper .register .main-wrapper {
+    width: 600px;
+  }
+  .hiw-wrapper .register .main-wrapper h1 {
+    font-size: 46px;
+  }
+  .hiw-wrapper .register .main-wrapper p {
+    margin-bottom: 30px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+  .hiw-wrapper .info .left-part {
+    display: none;
+  }
+  .hiw-wrapper .info .right-part {
+    width: 80%;
+    padding: 6% 10%;
+  }
+  .hiw-wrapper .approach .left-part {
+    display: none;
+  }
+  .hiw-wrapper .approach .right-part {
+    width: 90%;
+    padding: 0 5% 50px;
+  }
+  .hiw-wrapper .stages .main-wrapper {
+    width: 88%;
+    padding: 30px 6%;
+  }
+  .hiw-wrapper .stages .main-wrapper .nav .dot:after {
+    font-size: 17px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .move.left {
+    left: -45px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .move.right {
+    right: -45px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage h1 {
+    font-size: 50px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage .chart {
+    width: 250px;
+    height: 250px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage .chart .value {
+    line-height: 230px;
+    font-size: 80px;
+  }
+  .hiw-wrapper .stages .main-wrapper .content .stage .chart .value:after,
+  .hiw-wrapper .stages .main-wrapper .content .stage .chart .value:before {
+    top: 23%;
+    font-size: 22px;
+  }
+  .hiw-wrapper .today .left-part {
+    width: 32%;
+    padding: 5% 9%;
+  }
+  .home-wrapper {
+    padding-top: 70px;
+  }
+  .home-wrapper .experience {
+    padding: 170px 0;
+  }
+  .home-wrapper .experience .main-wrapper {
+    width: 700px;
+  }
+  .home-wrapper .experience .main-wrapper .content {
+    width: 460px;
+  }
+  .home-wrapper .experience .main-wrapper .content .title {
+    font-size: 32px;
+  }
+  .home-wrapper .experience .main-wrapper .content .text {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .home-wrapper .experience .main-wrapper .img {
+    width: 200px;
+    height: 200px;
+  }
+  .home-wrapper .sensor {
+    padding: 80px 0;
+  }
+  .home-wrapper .sensor .main-wrapper {
+    width: 700px;
+  }
+  .home-wrapper .sensor .main-wrapper .content {
+    width: 460px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .subtitle {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .title {
+    margin: 0 0 15px;
+    line-height: 36px;
+    font-size: 32px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .separator {
+    margin-bottom: 15px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .text {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .home-wrapper .sensor .main-wrapper .img {
+    width: 200px;
+    height: 200px;
+  }
+  .home-wrapper .coaching {
+    padding: 200px 0 210px;
+  }
+  .home-wrapper .coaching .main-wrapper {
+    width: 700px;
+  }
+  .home-wrapper .coaching .main-wrapper .content {
+    width: 460px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .subtitle {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .title {
+    margin: 0 0 15px;
+    line-height: 36px;
+    font-size: 32px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .separator {
+    margin-bottom: 15px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .text {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .home-wrapper .coaching .main-wrapper .img {
+    width: 200px;
+    height: 200px;
+  }
+  .home-wrapper .tools {
+    padding: 50px 0 100px;
+  }
+  .home-wrapper .tools .main-wrapper {
+    width: 700px;
+  }
+  .home-wrapper .tools .main-wrapper .content {
+    width: 460px;
+  }
+  .home-wrapper .tools .main-wrapper .content .subtitle {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+  .home-wrapper .tools .main-wrapper .content .title {
+    margin: 0 0 15px;
+    line-height: 36px;
+    font-size: 32px;
+  }
+  .home-wrapper .tools .main-wrapper .content .separator {
+    margin-bottom: 15px;
+  }
+  .home-wrapper .tools .main-wrapper .content .text {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  .home-wrapper .tools .main-wrapper .img {
+    width: 200px;
+    height: 200px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote {
+    padding: 100px 0 30px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote .content {
+    font-size: 20px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote .client {
+    font-size: 18px;
+  }
+  .home-wrapper .privacy .main-wrapper {
+    width: 700px;
+  }
+  .home-wrapper .privacy .main-wrapper .img {
+    width: 150px;
+    height: 165px;
+    background-size: 150px 165px;
+  }
+  .home-wrapper .privacy .main-wrapper .info .title {
+    font-size: 26px;
+  }
+  .home-wrapper .privacy .main-wrapper .info .text {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .home-wrapper .privacy .main-wrapper .info .labels {
+    font-size: 18px;
+  }
+  .home-wrapper .today .left-part {
+    width: 32%;
+    padding: 5% 9%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-wrapper {
+    width: 90%;
+  }
+  header #main-nav {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20%;
+    background-color: #fff;
+  }
+  header #main-nav nav {
+    float: none;
+    width: 100%;
+  }
+  header #main-nav nav ul li {
+    display: table;
+    margin: 0 auto 25px;
+    font-size: 26px;
+  }
+  header #main-nav .login {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    margin: 7px 0;
+  }
+  header #main-nav .custom-button {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  header .hamburger {
+    display: block;
+  }
+  footer {
+    position: relative;
+    width: 100%;
+    padding: 0 0 36px;
+  }
+  footer .logo,
+  footer .social {
+    display: none;
+  }
+  footer .copy {
+    display: table;
+    float: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  footer .link {
+    width: 90%;
+    margin: 0 5%;
+    padding: 25px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #c6c9ca;
+    text-align: center;
+  }
+  footer .link:last-of-type {
+    border: none;
+  }
+  .blog-wrapper .welcome h1 {
+    font-size: 40px;
+  }
+  .blog-wrapper .welcome h3 {
+    padding: 0 5%;
+  }
+  .blog-wrapper .posts {
+    position: relative;
+    height: 590px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .blog-wrapper .posts .main-wrapper {
+    position: absolute;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: auto;
+  }
+  .blog-wrapper .posts .main-wrapper .post {
+    width: 350px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter {
+    width: 304px;
+    height: 223px;
+    padding: 17px;
+  }
+  .blog-wrapper .today .left-part {
+    width: 90%;
+    padding: 5% 5% 10%;
+  }
+  .blog-wrapper .today .left-part p {
+    margin-bottom: 30px;
+  }
+  .blog-wrapper .today .right-part {
+    display: none;
+  }
+  .faq-wrapper .welcome h1 {
+    font-size: 40px;
+    padding: 0 5%;
+  }
+  .faq-wrapper .welcome h3 {
+    padding: 0 5%;
+  }
+  .faq-wrapper .faqs .main-wrapper {
+    width: 90%;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion {
+    width: calc(100% - 60px);
+    padding: 20px 40px 20px 20px;
+    font-size: 17px;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion .toggle {
+    top: calc(50% - 10px);
+  }
+  .faq-wrapper .faqs .main-wrapper .panel {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    line-height: 24px;
+    font-size: 15px;
   }
 }

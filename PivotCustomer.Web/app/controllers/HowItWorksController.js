@@ -2,6 +2,11 @@
     $(document).ready(function () {
         $(window).scrollTop(0);
 
+        if ($(window).width() < 767) {
+            $('#main-nav').hide();
+            $('.hamburger ').removeClass('open');
+        }
+
         var slider = $('.approach .bxslider').bxSlider({
             auto: true,
             onSlideAfter: function ($slideElement, oldIndex, newIndex) {
