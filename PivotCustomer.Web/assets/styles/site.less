@@ -203,7 +203,7 @@ header {
     .hamburger {
         display: none;
         position: absolute;
-        top: 23px;
+        top: 20px;
         right: 20px;
         width: 30px;
         height: 22px;
@@ -1396,6 +1396,80 @@ footer {
                                 content: "WEEKS";
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .stages-mobile {
+        display: none;
+        background-color: #08897c;
+
+        .main-wrapper {
+            width: 90%;
+            padding: 40px 5%;
+
+            .bx-wrapper {
+                border: none;
+                box-shadow: none;
+                background: none;
+
+                .bx-controls-auto,
+                .bx-pager {
+                    bottom: -75px;
+                }
+
+                .bx-pager.bx-default-pager {
+                    a {
+                        background: rgba(255, 255, 255, .5);
+
+                        &.active {
+                            background: @w;
+                        }
+                    }
+                }
+            }
+
+            .bx-controls-direction {
+                display: none;
+            }
+
+            .m-stage {
+                width: 100%;
+
+                h3 {
+                    margin: 0;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    font-family: 'MaisonNeue-Book', sans-serif;
+                    font-weight: 500;
+                    color: @w;
+                }
+
+                h1 {
+                    margin: 0 0 15px;
+                    font-size: 70px;
+                    font-family: 'GothamRounded-Light', sans-serif;
+                    color: @w;
+                }
+
+                .separator {
+                    width: 70px;
+                    height: 1px;
+                    margin-bottom: 20px;
+                    background-color: rgba(255, 255, 255, .5);
+                }
+
+                p {
+                    width: 92%;
+                    font-size: 18px;
+                    font-family: 'GothamRounded-Light', sans-serif;
+                    color: @w;
+
+                    &.goal,
+                    &.duration {
+                        font-style: italic;
                     }
                 }
             }

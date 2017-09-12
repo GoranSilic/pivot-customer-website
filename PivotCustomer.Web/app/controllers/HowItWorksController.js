@@ -27,6 +27,37 @@
             }
         });
 
+        $('.stages-mobile .bxslider').bxSlider({
+            onSlideAfter: function (oldIndex, newIndex) {
+                var step = newIndex + 1;
+
+                console.log(newIndex);
+
+                switch (step) {
+                    case 1:
+                        $('.stages-mobile').animate({ backgroundColor: '#0f616f' }, 'slow');
+                        break;
+                    case 2:
+                        $('.stages-mobile').animate({ backgroundColor: '#173963' }, 'slow');
+                        break;
+                    case 3:
+                        $('.stages-mobile').animate({ backgroundColor: '#2d2659' }, 'slow');
+                        break;
+                    case 4:
+                        $('.stages-mobile').animate({ backgroundColor: '#44134f' }, 'slow');
+                        break;
+                    case 5:
+                        $('.stages-mobile').animate({ backgroundColor: '#5a0045' }, 'slow');
+                        break;
+                    case 6:
+                        $('.stages-mobile').animate({ backgroundColor: '#08897c' }, 'slow');
+                        break;
+                    default:
+
+                }
+            }
+        });
+
         $(".approach .step-item.sensing").hover(function () {
             slider.stopAuto();
             slider.goToSlide(0);

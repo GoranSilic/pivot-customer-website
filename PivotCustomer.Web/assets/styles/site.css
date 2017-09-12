@@ -180,7 +180,7 @@ header .login:hover {
 header .hamburger {
   display: none;
   position: absolute;
-  top: 23px;
+  top: 20px;
   right: 20px;
   width: 30px;
   height: 22px;
@@ -1162,6 +1162,65 @@ footer .copy:hover {
 }
 .hiw-wrapper .stages .main-wrapper .content .stage.sustain .value:after {
   content: "WEEKS";
+}
+.hiw-wrapper .stages-mobile {
+  display: none;
+  background-color: #08897c;
+}
+.hiw-wrapper .stages-mobile .main-wrapper {
+  width: 90%;
+  padding: 40px 5%;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .bx-wrapper {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .bx-wrapper .bx-controls-auto,
+.hiw-wrapper .stages-mobile .main-wrapper .bx-wrapper .bx-pager {
+  bottom: -75px;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .bx-wrapper .bx-pager.bx-default-pager a {
+  background: rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .stages-mobile .main-wrapper .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #fff;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .bx-controls-direction {
+  display: none;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage {
+  width: 100%;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'MaisonNeue-Book', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage h1 {
+  margin: 0 0 15px;
+  font-size: 70px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage .separator {
+  width: 70px;
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage p {
+  width: 92%;
+  font-size: 18px;
+  font-family: 'GothamRounded-Light', sans-serif;
+  color: #fff;
+}
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage p.goal,
+.hiw-wrapper .stages-mobile .main-wrapper .m-stage p.duration {
+  font-style: italic;
 }
 .hiw-wrapper .today .left-part {
   width: 28%;
