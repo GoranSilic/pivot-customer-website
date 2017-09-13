@@ -1464,7 +1464,6 @@
   header {
     width: 94%;
     padding: 10px 3%;
-    box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.1);
   }
   header #main-nav {
     display: none;
