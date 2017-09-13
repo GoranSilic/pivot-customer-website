@@ -1485,20 +1485,9 @@
     margin: 0 auto 25px;
     font-size: 26px;
   }
-  header #main-nav .login {
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
-    margin: 7px 0;
-    font-size: 26px;
-  }
+  header #main-nav .login,
   header #main-nav .custom-button {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    width: 180px;
-    padding: 3px 0 6px;
-    font-size: 22px;
+    display: none;
   }
   header .hamburger {
     display: block;
@@ -1791,7 +1780,7 @@
   .home-wrapper .experience:before {
     content: "";
     position: absolute;
-    top: -58px;
+    top: -57px;
     left: 0;
     width: 100%;
     height: 59px;
@@ -1817,7 +1806,7 @@
   .home-wrapper .sensor:before {
     content: "";
     position: absolute;
-    top: -46px;
+    top: -44px;
     left: 0;
     width: 100%;
     height: 46px;
@@ -1852,7 +1841,7 @@
   .home-wrapper .coaching:before {
     content: "";
     position: absolute;
-    top: -58px;
+    top: -57px;
     left: 0;
     width: 100%;
     height: 59px;
@@ -1887,7 +1876,7 @@
   .home-wrapper .tools:before {
     content: "";
     position: absolute;
-    top: -46px;
+    top: -45px;
     left: 0;
     width: 100%;
     height: 46px;
@@ -1945,5 +1934,263 @@
   }
   .home-wrapper .today .right-part {
     display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .custom-button {
+    width: 200px;
+    font-size: 18px;
+  }
+  header {
+    padding: 12px 3%;
+  }
+  header .logo {
+    width: 85px;
+    height: 20px;
+    margin: 0;
+    background-size: contain;
+  }
+  header .hamburger {
+    top: 11px;
+    right: 3%;
+  }
+  header #main-nav {
+    top: 44px;
+  }
+  footer .link {
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  .home-wrapper {
+    padding-top: 44px;
+  }
+  .home-wrapper .welcome .text {
+    top: 15%;
+  }
+  .home-wrapper .welcome .text h1 {
+    font-size: 23px;
+  }
+  .home-wrapper .welcome .text p {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  .home-wrapper .experience .main-wrapper .content .title {
+    line-height: normal;
+    font-size: 23px;
+  }
+  .home-wrapper .experience .main-wrapper .content .text {
+    line-height: normal;
+  }
+  .home-wrapper .experience .main-wrapper .content .custom-button {
+    font-size: 16px;
+    background-position: 97% 5px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .subtitle {
+    font-size: 14px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .title {
+    line-height: normal;
+    font-size: 23px;
+  }
+  .home-wrapper .sensor .main-wrapper .content .text {
+    line-height: normal;
+  }
+  .home-wrapper .sensor .main-wrapper .content .custom-button {
+    font-size: 16px;
+    background-position: 97% 5px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .subtitle {
+    font-size: 14px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .title {
+    line-height: normal;
+    font-size: 23px;
+  }
+  .home-wrapper .coaching .main-wrapper .content .text {
+    line-height: normal;
+  }
+  .home-wrapper .coaching .main-wrapper .content .custom-button {
+    font-size: 16px;
+    background-position: 97% 5px;
+  }
+  .home-wrapper .tools .main-wrapper .content .subtitle {
+    font-size: 14px;
+  }
+  .home-wrapper .tools .main-wrapper .content .title {
+    line-height: normal;
+    font-size: 23px;
+  }
+  .home-wrapper .tools .main-wrapper .content .text {
+    line-height: normal;
+  }
+  .home-wrapper .tools .main-wrapper .content .custom-button {
+    font-size: 16px;
+    background-position: 97% 5px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote {
+    padding: 60px 0 30px;
+    background-position: center 17px;
+    background-size: 30px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote .content {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .home-wrapper .quotes .main-wrapper .quote .client {
+    font-size: 16px;
+  }
+  .home-wrapper .privacy .main-wrapper .info .text {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .home-wrapper .today .left-part h3 {
+    font-size: 16px;
+  }
+  .home-wrapper .today .left-part h2 {
+    font-size: 32px;
+  }
+  .home-wrapper .today .left-part p {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .hiw-wrapper {
+    padding-top: 44px;
+  }
+  .hiw-wrapper .register:after {
+    bottom: -24px;
+    left: calc(50% - 31px);
+    width: 62px;
+    height: 31px;
+    border-bottom-left-radius: 62px;
+    border-bottom-right-radius: 62px;
+    background-position: center 21%;
+    background-size: 20px 12px;
+  }
+  .hiw-wrapper .register .main-wrapper h1 {
+    font-size: 32px;
+  }
+  .hiw-wrapper .register .main-wrapper p {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .hiw-wrapper .info .right-part h3 {
+    font-size: 16px;
+  }
+  .hiw-wrapper .info .right-part h2 {
+    margin: 10px 0;
+  }
+  .hiw-wrapper .info .right-part p {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .hiw-wrapper .approach .right-part .step-item .text {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .hiw-wrapper .stages-mobile .main-wrapper .m-stage h3 {
+    font-size: 16px;
+  }
+  .hiw-wrapper .stages-mobile .main-wrapper .m-stage h1 {
+    font-size: 40px;
+  }
+  .hiw-wrapper .stages-mobile .main-wrapper .m-stage p {
+    font-size: 16px;
+  }
+  .hiw-wrapper .today .left-part h3 {
+    font-size: 16px;
+  }
+  .hiw-wrapper .today .left-part h2 {
+    font-size: 32px;
+  }
+  .hiw-wrapper .today .left-part p {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .about-wrapper {
+    padding-top: 44px;
+  }
+  .about-wrapper .welcome .main-wrapper .content .title {
+    font-size: 32px;
+  }
+  .about-wrapper .welcome .main-wrapper .content .text {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .about-wrapper .note .letter .title {
+    font-size: 24px;
+  }
+  .about-wrapper .note .letter p {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .about-wrapper .advisors .top-part .title {
+    font-size: 32px;
+  }
+  .about-wrapper .advisors .top-part .info {
+    line-height: normal;
+  }
+  .about-wrapper .how .top-part {
+    padding: 40px 0;
+  }
+  .about-wrapper .how .top-part .title {
+    font-size: 32px;
+  }
+  .about-wrapper .how .top-part .subtitle {
+    font-size: 18px;
+  }
+  .about-wrapper .today .left-part h3 {
+    font-size: 16px;
+  }
+  .about-wrapper .today .left-part h2 {
+    font-size: 32px;
+  }
+  .about-wrapper .today .left-part p {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .faq-wrapper {
+    padding-top: 44px;
+  }
+  .faq-wrapper .welcome {
+    padding: 40px 0;
+  }
+  .faq-wrapper .welcome h1 {
+    font-size: 32px;
+  }
+  .faq-wrapper .faqs .main-wrapper .accordion {
+    font-size: 15px;
+  }
+  .faq-wrapper .faqs .main-wrapper .panel {
+    margin-bottom: 25px;
+    line-height: normal;
+    font-size: 14px;
+  }
+  .blog-wrapper {
+    padding-top: 44px;
+  }
+  .blog-wrapper .welcome {
+    padding: 40px 0;
+  }
+  .blog-wrapper .welcome h1 {
+    font-size: 32px;
+  }
+  .blog-wrapper .posts .main-wrapper .post {
+    width: 250px;
+    margin: 0 2% 60px;
+  }
+  .blog-wrapper .posts .main-wrapper .post.newsletter {
+    width: 208px;
+    height: 165px;
+    padding: 17px;
+  }
+  .blog-wrapper .today .left-part h3 {
+    font-size: 16px;
+  }
+  .blog-wrapper .today .left-part h2 {
+    font-size: 32px;
+  }
+  .blog-wrapper .today .left-part p {
+    line-height: normal;
+    font-size: 16px;
   }
 }
